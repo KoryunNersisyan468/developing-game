@@ -4,7 +4,7 @@
     "title": "Phase 1. Student Voice and Choice",
     "date": "03.03.2025",
     "description": "Students are introduced to the project's theme and core questions, and it's explained what they need to do within this work. The relevance of the topic is discussed. Groups are formed, and students are given the opportunity to choose their roles within the groups according to their preferences. Each member is given a clear task.",
-    "images": ["/developing-game/blogs/Blog1_1.jpg"],
+    "images": ["blogs/Blog1_1.jpg"],
     "videos": ["", ""]
   },
   {
@@ -13,11 +13,11 @@
     "date": "10.03.2025",
     "description": "Students, within their groups, determine which sources they need to use for research. They study various sources and gather information that will help them find answers to the core questions.",
     "images": [
-      "/developing-game/blogs/Blog2_1.png",
-      "/developing-game/blogs/Blog2_2.png",
-      "/developing-game/blogs/Blog2_3.png",
-      "/developing-game/blogs/Blog2_4.png",
-      "/developing-game/blogs/Blog2_5.png"
+      "blogs/Blog2_1.png",
+      "blogs/Blog2_2.png",
+      "blogs/Blog2_3.png",
+      "blogs/Blog2_4.png",
+      "blogs/Blog2_5.png"
     ],
     "videos": ["", "", ""]
   },
@@ -26,10 +26,7 @@
     "title": "Phase 3. Data Processing",
     "date": "17.03.2025",
     "description": "Students combine, analyze, and process the information and facts gathered from various sources. When writing the material, students indicate which sources they used.",
-    "images": [
-      "/developing-game/blogs/Blog3_1.png",
-      "/developing-game/blogs/Blog3_2.png"
-    ],
+    "images": ["blogs/Blog3_1.png", "blogs/Blog3_2.png"],
     "videos": ["", ""]
   },
   {
