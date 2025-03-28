@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track-piece {
+    border-radius: 4px;
+}
+
+.home_title {
+    text-shadow:
+        3px 0 2px #7E22CE, -3px 0 2px #7E22CE,
+        0 3px 2px #7E22CE, 0 -3px 2px #7E22CE,
+        2px 2px 2px #7E22CE, -2px -2px 2px #7E22CE,
+        2px -2px 2px #7E22CE, -2px 2px 2px #7E22CE;
+}
+
+.home_title {
+    text-shadow:
+        3px 0 3px #7E22CE, -3px 0 3px #7E22CE,
+        0 3px 3px #7E22CE, 0 -3px 3px #7E22CE,
+        2px 2px 3px #7E22CE, -2px -2px 3px #7E22CE,
+        2px -2px 3px #7E22CE, -2px 2px 3px #7E22CE;
+
+}
+
+.dark .home_title {
+    text-shadow:
+        3px 0 3px #312E81, -3px 0 3px #312E81,
+        0 3px 3px #312E81, 0 -3px 3px #312E81,
+        2px 2px 3px #312E81, -2px -2px 3px #312E81,
+        2px -2px 3px #312E81, -2px 2px 3px #312E81;
+
+}
