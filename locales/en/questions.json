@@ -1,0 +1,935 @@
+[
+  {
+    "question": "What types of waves are there?",
+    "correct": "Longitudinal and transverse",
+    "options": [
+      "Longitudinal and transverse",
+      "Circular and spherical",
+      "Resonant and protective",
+      "Torrential and restrictive"
+    ]
+  },
+  {
+    "question": "What is the dependence of fluid pressure on velocity called?",
+    "correct": "Bernoulli's principle",
+    "options": [
+      "Law of sound",
+      "Archimedes' principle",
+      "Bernoulli's principle",
+      "Law of fluids"
+    ]
+  },
+  {
+    "question": "What must happen in a fluid for the velocity to increase, according to Bernoulli's equation?",
+    "correct": "The flow width must decrease",
+    "options": [
+      "The flow width must decrease",
+      "The fluid temperature must decrease",
+      "The pressure must increase",
+      "The fluid viscosity must increase"
+    ]
+  },
+  {
+    "question": "What phenomenon does Bernoulli's equation describe?",
+    "correct": "Fluid flow",
+    "options": [
+      "Brownian motion",
+      "Fluid flow",
+      "Life balance",
+      "Damping arrangement"
+    ]
+  },
+  {
+    "question": "What is the formula for the period of oscillation of a body in a mathematical pendulum?",
+    "correct": "T = 2π√(l/g)",
+    "options": ["T = 2π√(l/g)", "T = π√(l/g)", "T = 2πl", "T = g/l"]
+  },
+  {
+    "question": "What is harmonic oscillation?",
+    "correct": "Cyclic and identical motion",
+    "options": [
+      "Elongated oscillation",
+      "Cyclic and identical motion",
+      "Interrupted oscillation",
+      "Oscillation that changes under external influences"
+    ]
+  },
+  {
+    "question": "The lift force of an airplane wing depends on:",
+    "correct": "The angle of attack of the wing",
+    "options": [
+      "Speed and shape",
+      "Air temperature",
+      "Weight",
+      "The angle of attack of the wing"
+    ]
+  },
+  {
+    "question": "What does the period of spring oscillations depend on?",
+    "correct": "Mass and spring stiffness",
+    "options": [
+      "Only on the mass of the body",
+      "Only on the spring stiffness",
+      "Mass and spring stiffness",
+      "Body speed"
+    ]
+  },
+  {
+    "question": "What causes damped oscillations?",
+    "correct": "Resistive forces (friction, air resistance)",
+    "options": [
+      "Resistive forces (friction, air resistance)",
+      "The mass of the oscillating body",
+      "The shape of the body",
+      "Only the absence of external forces"
+    ]
+  },
+  {
+    "question": "What are examples of self-oscillations?",
+    "correct": "Pendulum motion without external force",
+    "options": [
+      "Pendulum motion without external force",
+      "Destruction of a processed structure",
+      "Short circuits on a television screen",
+      "Movements of research equipment"
+    ]
+  },
+  {
+    "question": "What does Archimedes' force depend on?",
+    "correct": "On the volume of the body and the density of the liquid",
+    "options": [
+      "On the mass of the body",
+      "On the material of the body",
+      "On the volume of the body and the density of the liquid",
+      "On the height of the liquid"
+    ]
+  },
+  {
+    "question": "What does Newton's first law characterize?",
+    "correct": "Inertia",
+    "options": ["Inertia", "Acceleration", "Force", "Mass"]
+  },
+  {
+    "question": "What kind of motion does a free body perform in an inertial system if no force acts on it?",
+    "correct": "Uniform rectilinear",
+    "options": [
+      "Acceleration",
+      "Circular",
+      "Uniform rectilinear",
+      "Oscillatory"
+    ]
+  },
+  {
+    "question": "What physical quantity characterizes the inertia of a body?",
+    "correct": "Mass",
+    "options": ["Mass", "Force", "Velocity", "Density"]
+  },
+  {
+    "question": "In what units is mass measured in the International System of Units?",
+    "correct": "Kilogram",
+    "options": ["Joule", "Newton", "Meter", "Kilogram"]
+  },
+  {
+    "question": "What physical quantity causes acceleration of a body?",
+    "correct": "Force",
+    "options": ["Mass", "Force", "Density", "Temperature"]
+  },
+  {
+    "question": "According to Newton's second law, acceleration is proportional to",
+    "correct": "Resultant force",
+    "options": ["Duration", "Mass", "Velocity", "Resultant force"]
+  },
+  {
+    "question": "Which formula expresses Newton's second law?",
+    "correct": "F = ma",
+    "options": ["F = ma", "F = mv", "F = m/g", "F = v/t"]
+  },
+  {
+    "question": "If the resultant force acting on a body is zero, then its acceleration will be",
+    "correct": "Zero",
+    "options": ["Zero", "Large", "Small", "Infinite"]
+  },
+  {
+    "question": "What physical quantity connects force and acceleration?",
+    "correct": "Mass",
+    "options": ["Temperature", "Mass", "Density", "Time"]
+  },
+  {
+    "question": "What will remain unchanged if the sum of the forces acting on a body is zero?",
+    "correct": "Velocity",
+    "options": ["Velocity", "Acceleration", "Force", "Density"]
+  },
+  {
+    "question": "How are interacting forces applied to bodies according to Newton's third law?",
+    "correct": "On different bodies",
+    "options": [
+      "On different bodies",
+      "On the same body",
+      "Only in the horizontal direction",
+      "Only on moving bodies"
+    ]
+  },
+  {
+    "question": "What does the deformation of a body mean?",
+    "correct": "Change of shape",
+    "options": ["Change of shape", "Motion", "Mass", "Reversibility"]
+  },
+  {
+    "question": "Kepler's laws mainly relate to the space system, particularly",
+    "correct": "Planets",
+    "options": ["Molecules", "Planets", "Galaxies"]
+  },
+  {
+    "question": "What factor does the force of gravity acting on a body depend on?",
+    "correct": "On the mass of the body",
+    "options": [
+      "On the shape of the body",
+      "On the mass of the body",
+      "On the material of the surface",
+      "On the temperature of the body"
+    ]
+  },
+  {
+    "question": "What unit is used to measure the force of gravity?",
+    "correct": "Newton",
+    "options": ["Kilogram", "Meter", "Newton", "Second"]
+  },
+  {
+    "question": "How does the acceleration of free fall change with increasing altitude?",
+    "correct": "Decreases",
+    "options": [
+      "Increases",
+      "Does not change",
+      "Decreases",
+      "Does not depend on altitude"
+    ]
+  },
+  {
+    "question": "How does the weight of a body change in a state of weightlessness?",
+    "correct": "It will become zero",
+    "options": [
+      "It will become zero",
+      "It will increase",
+      "It will decrease, but not reach zero",
+      "It will double"
+    ]
+  },
+  {
+    "question": "How does the weight of a body change when moving with upward acceleration?",
+    "correct": "Increases",
+    "options": ["Increases", "Decreases", "Remains unchanged", "Disappears"]
+  },
+  {
+    "question": "What will happen to the weight of a body if the elevator moves downward with acceleration?",
+    "correct": "Decreases",
+    "options": ["Increases", "Decreases", "Doubles", "Becomes infinite"]
+  },
+
+{
+    "question": "What does the first cosmic velocity depend on?",
+    "correct": "On the mass of the Earth and its radius",
+    "options": [
+        "On the Earth's atmosphere",
+        "On the mass of the Earth and its radius",
+        "On the mass of the satellite",
+        "On the shape of the satellite"
+    ]
+},
+{
+    "question": "What is the main cause of resistance force?",
+    "correct": "The impact of air or fluid particles",
+    "options": [
+        "The mass of the body",
+        "The impact of air or fluid particles",
+        "The Earth's gravity",
+        "The magnetic field"
+    ]
+},
+{
+    "question": "In which scientific field are inverse problems of mechanics most often used?",
+    "correct": "In astronomy",
+    "options": [
+        "In astronomy",
+        "In chemistry",
+        "In environmental science",
+        "In biology"
+    ]
+},
+{
+    "question": "What is the solution of the direct problem of mechanics based on?",
+    "correct": "On the laws of motion",
+    "options": [
+        "On the laws of motion",
+        "On the laws of connection",
+        "On the laws of light refraction",
+        "On magnetic interaction"
+    ]
+},
+{
+    "question": "What force determines the motion of a body on an inclined plane?",
+    "correct": "The force of gravity",
+    "options": [
+        "The force of gravity",
+        "The force of friction",
+        "The electric force",
+        "The magnetic force"
+    ]
+},
+{
+    "question": "What kind of motion can a body perform when sliding down an inclined plane, if we neglect friction?",
+    "correct": "Uniformly accelerated",
+    "options": [
+        "Uniform",
+        "Uniformly accelerated",
+        "Uniformly decelerated",
+        "Motion is impossible"
+    ]
+},
+{
+    "question": "What kind of motion does a non-inertial frame of reference perform?",
+    "correct": "With acceleration",
+    "options": [
+        "Uniform straight line",
+        "With acceleration",
+        "Complete rest",
+        "Only in a circle"
+    ]
+},
+{
+    "question": "What kind of motion does a body perform if only the Coriolis force acts on it?",
+    "correct": "Circular",
+    "options": ["Straight line", "Circular", "Parabolic", "Oscillating"]
+},
+{
+    "question": "What unit is used to express the moment of force?",
+    "correct": "N×m",
+    "options": ["m/s²", "N/m", "N×m", "kg×m/s²"]
+},
+{
+    "question": "Which of the following quantities has the dimension kgm²/s²?",
+    "correct": "Force",
+    "options": ["Force", "Force arm", "Force impulse", "Force moment"]
+},{
+    "question": "How many conditions are required for the equilibrium of a body?",
+    "correct": "2",
+    "options": ["4", "3", "1", "2"]
+},
+{
+    "question": "How many types of equilibrium are there?",
+    "correct": "3",
+    "options": ["4", "1", "2", "3"]
+},
+{
+    "question": "What is the mechanical work equal to?",
+    "correct": "A=F×s×cosα",
+    "options": ["A=F²s×cosα", "A=F×s²/2", "A=F+s×sinα", "A=F×s×cosα"]
+},
+{
+    "question": "What unit is used to express work?",
+    "correct": "J",
+    "options": ["Hz", "J", "W", "Pa"]
+},
+{
+    "question": "What is the work of the elastic force equal to?",
+    "correct": "A=kx²/2",
+    "options": ["A=kx²/2", "A=k+x²/2", "A=k-x²/2", "A=k²x/2"]
+},
+{
+    "question": "What is the work of the friction force equal to?",
+    "correct": "A=-μmgl",
+    "options": ["A=μmg+l", "A=-μmgl", "A=μmg/l", "A=-μl/mg"]
+},
+{
+    "question": "What does the physical quantity power characterize?",
+    "correct": "The rate of work",
+    "options": [
+        "The rate of work",
+        "The acting force",
+        "The time interval of work",
+        "The work of force"
+    ]
+},
+{
+    "question": "What is the unit of measurement for power?",
+    "correct": "W",
+    "options": ["N", "J", "W", "Hz"]
+},
+{
+    "question": "What does the Efficiency Coefficient show?",
+    "correct": "The ratio of useful to total",
+    "options": [
+        "Useful work",
+        "The ratio of useful to total",
+        "Their difference",
+        "The ratio of total to useful"
+    ]
+},
+{
+    "question": "What type of energy is kinetic energy?",
+    "correct": "Mechanical",
+    "options": ["Thermal", "Mechanical", "Electromagnetic", "Nuclear"]
+},{
+    "question": "What quantities does the kinetic energy of a body depend on?",
+    "correct": "Mass and velocity",
+    "options": [
+        "Height",
+        "Mass",
+        "Mass and velocity",
+        "Velocity"
+    ]
+},
+{
+    "question": "How many types of energy are distinguished in mechanics?",
+    "correct": "3",
+    "options": ["5", "3", "2", "1"]
+},
+{
+    "question": "How is kinetic energy calculated?",
+    "correct": "Ek=mv²/2",
+    "options": ["Ek=ma²/2", "Ek=mv²/2", "Ek=-mg²/2", "Ek=mgh"]
+},
+{
+    "question": "How is the potential energy theorem expressed?",
+    "correct": "A=-△Ep",
+    "options": ["A=Ep2/Ep1", "A=-△Ep", "A=△Ep", "A=Ep2+Ep1"]
+},
+{
+    "question": "What formula expresses the impulse of force?",
+    "correct": "I=F×△t",
+    "options": ["I=△F×t", "I=F/△t", "I=△F/t", "I=F×△t"]
+},
+{
+    "question": "What formula expresses the momentum of a body?",
+    "correct": "p=mv",
+    "options": ["p=mv²", "p=mt", "p=mv", "p=m/t"]
+},
+{
+    "question": "How many types of collisions are distinguished depending on the nature of the interaction?",
+    "correct": "2",
+    "options": ["4", "3", "1", "2"]
+},
+{
+    "question": "What unit of measurement is used to express pressure?",
+    "correct": "N/m²",
+    "options": ["Hz", "N/m²", "N/m", "N/m³"]
+},
+{
+    "question": "On what law does a hydraulic press operate?",
+    "correct": "Pascal's law",
+    "options": [
+        "Hooke's law",
+        "Pascal's law",
+        "Newton's first law",
+        "Archimedes' law"
+    ]
+},
+{
+    "question": "What is the unit of oscillation frequency in SI?",
+    "correct": "1s⁻¹",
+    "options": ["1s", "1s⁻¹", "1s⁻²", "1m/s"]
+},
+{
+    "question": "Which quantity remains unchanged when sound passes from air to a solid medium?",
+    "correct": "Oscillation frequency",
+    "options": [
+        "Oscillation frequency",
+        "Propagation speed",
+        "Impact force",
+        "Brownian motion speed"
+    ]
+},
+{
+    "question": "What types of waves are there?",
+    "correct": "Longitudinal and transverse",
+    "options": [
+        "Longitudinal and transverse",
+        "Circular and spherical",
+        "Resonant and protective",
+        "Torrential and restrictive"
+    ]
+},
+{
+    "question": "What is the dependence of fluid pressure on velocity called?",
+    "correct": "Bernoulli's principle",
+    "options": [
+        "Law of sound",
+        "Archimedes' principle",
+        "Bernoulli's principle",
+        "Law of fluids"
+    ]
+},
+{
+    "question": "What must happen in a fluid for the velocity to increase, according to Bernoulli's equation?",
+    "correct": "The flow width must decrease",
+    "options": [
+        "The flow width must decrease",
+        "The fluid temperature must decrease",
+        "The pressure must increase",
+        "The fluid viscosity must increase"
+    ]
+},
+{
+    "question": "The product of a body's mass and velocity is called...",
+    "correct": "Momentum of the body",
+    "options": [
+        "Momentum of the body",
+        "Law of conservation of momentum",
+        "Impulse of force",
+        "Force"
+    ]
+},
+{
+    "question": "The quantity characterizing the gravitational field is...",
+    "correct": "The potential of the gravitational field",
+    "options": [
+        "The potential energy of the body",
+        "The potential of the gravitational field",
+        "The mechanical energy of the body",
+        "The total mechanical energy"
+    ]
+},
+{
+    "question": "The motion during which a body makes the same displacements in any equal time intervals is called...",
+    "correct": "Uniform rectilinear motion",
+    "options": [
+        "Non-uniform motion",
+        "Variable motion",
+        "Uniform rectilinear motion",
+        "Circular motion"
+    ]
+},
+{
+    "question": "The motion during which a body makes unequal displacements in at least two equal time intervals is called...",
+    "correct": "Non-uniform motion",
+    "options": [
+        "Uniform rectilinear motion",
+        "Non-uniform motion",
+        "Variable motion",
+        "Circular motion"
+    ]
+},
+{
+    "question": "The weight of a body at rest is equal to the... acting on it.",
+    "correct": "Force of gravity",
+    "options": [
+        "Potential force",
+        "Gravitational force",
+        "Force of gravity",
+        "Arbitrary force"
+    ]
+},
+{
+    "question": "We distinguish... types of friction force.",
+    "correct": "3 types",
+    "options": ["2 types", "1 type", "3 types", "4 types"]
+},
+{
+    "question": "The determination of the gravitational constant...",
+    "correct": "G = Fr²/(M₁M₂)",
+    "options": [
+        "G = r²/(F M₁M₂)",
+        "G = F/(r²M₁M₂)",
+        "G = Fr²/(M₁M₂)",
+        "G = M₁M₂/Fr²"
+    ]
+},
+{
+    "question": "The cause of a body's acceleration...",
+    "correct": "The force acting on it",
+    "options": [
+        "The mass of the body",
+        "The force of inertia",
+        "The speed of motion",
+        "The force acting on it"
+    ]
+},
+{
+    "question": "Motion along a curve with constant acceleration is called...",
+    "correct": "Curvilinear uniformly accelerated motion",
+    "options": [
+        "Curvilinear uniformly accelerated motion",
+        "Rectilinear uniform motion",
+        "Uniformly decelerated motion",
+        "Motion without acceleration"
+    ]
+},
+{
+    "question": "The motion during which the velocity of a body changes by the same amount in any equal time intervals is called...",
+    "correct": "Uniformly variable motion",
+    "options": [
+        "Rectilinear uniform motion",
+        "Non-uniform motion",
+        "Uniformly variable motion",
+        "Circular motion"
+    ]
+},
+{
+    "question": "The velocity of a body at a given moment in time or at a given point in the trajectory is called...",
+    "correct": "Instantaneous velocity",
+    "options": [
+        "Variable velocity",
+        "Instantaneous velocity",
+        "Constant velocity",
+        "The correct answer is absent"
+    ]
+},
+{
+    "question": "The modulus of the body's velocity is equal to...",
+    "correct": "v = S / t",
+    "options": ["v = S / t", "v = t / S", "v = S * t", "v = 1 / (S * t)"]
+},
+{
+    "question": "Forces whose work depends only on the initial and final positions of their application points and does not depend on the shape of the trajectory are called...",
+    "correct": "Potential",
+    "options": ["Potential", "Non-potential", "Kinetic", "Elastic"]
+},
+{
+    "question": "The scalar physical quantity equal to the product of the modulus of the force acting on the body, the modulus of the displacement vector, and the cosine of the angle between these vectors is called...",
+    "correct": "Mechanical work",
+    "options": [
+        "Kinetic energy",
+        "Potential energy",
+        "Mechanical work",
+        "Power"
+    ]
+},
+{
+    "question": "Equal are called...",
+    "correct": "Vectors that are co-directional and equal in modulus",
+    "options": [
+        "Vectors that are co-directional and equal in modulus",
+        "Vectors directed in opposite directions",
+        "Vectors of different lengths",
+        "Vectors starting from the same point"
+    ]
+},
+{
+    "question": "The simplest form of the motion of matter is...",
+    "correct": "Mechanical motion",
+    "options": [
+        "Mechanical motion",
+        "Network motion",
+        "Electromagnetic motion",
+        "Biological motion"
+    ]
+},
+{
+    "question": "At what power is work of 1 J performed in 1 second?",
+    "correct": "1 W",
+    "options": ["1 W", "1 A", "1 V", "1 kW"]
+},
+{
+    "question": "The quantity equal to half the product of the mass of the body and the square of its velocity is called...",
+    "correct": "Kinetic energy of the body",
+    "options": [
+        "Kinetic energy of the body",
+        "Potential energy",
+        "Mechanical work",
+        "Power"
+    ]
+},
+{
+    "question": "The product of the mass of the body, the acceleration of free fall, and the height of the body above the Earth is called...",
+    "correct": "Potential energy",
+    "options": [
+        "Kinetic energy",
+        "Potential energy",
+        "Mechanical work",
+        "Power"
+    ]
+},
+{
+    "question": "A dynamometer is often called...",
+    "correct": "Spring scales",
+    "options": [
+        "Spring scales",
+        "Hydraulic scales",
+        "Magnetic dynamometers",
+        "Potential scales"
+    ]
+},
+{
+    "question": "The reaction force is denoted by...",
+    "correct": "N",
+    "options": ["N", "F", "m", "a"]
+},
+{
+    "question": "The weight of the body is denoted by...",
+    "correct": "P",
+    "options": ["P", "W", "F", "m"]
+},
+{
+    "question": "The force of gravity is the force acting on bodies from...",
+    "correct": "The Earth",
+    "options": [
+        "The Earth",
+        "The force of impact on the body",
+        "The taken force",
+        "The napkin force"
+    ]
+},
+{
+    "question": "A rigid body will remain in equilibrium if the geometric sum of all forces acting on it and the rotational moment of this system of forces about any axis are equal to...",
+    "correct": "0",
+    "options": ["0", "10", "5", "The correct answer is absent"]
+},
+{
+    "question": "The minimum speed that must be imparted to a body to become an artificial satellite of the Earth is called...",
+    "correct": "First cosmic velocity",
+    "options": [
+        "First cosmic velocity",
+        "Second cosmic velocity",
+        "Instantaneous velocity",
+        "Variable velocity"
+    ]
+},
+{
+    "question": "𝛂 is called...",
+    "correct": "Initial phase",
+    "options": [
+        "Initial phase",
+        "Conclusion phase",
+        "Final phase",
+        "Ascent phase"
+    ]
+},
+{
+    "question": "The orbit of every planet is an ellipse with the Sun at one of the two foci.",
+    "correct": "Kepler's first law",
+    "options": [
+        "Kepler's first law",
+        "Kepler's second law",
+        "Newton's law",
+        "Law of uniformly accelerated motion"
+    ]
+},
+{
+    "question": "The force of friction that occurs at the boundary of contact surfaces of bodies in the absence of their relative motion is called...",
+    "correct": "Static friction force",
+    "options": [
+        "Sliding friction force",
+        "Static friction force",
+        "Rolling friction force",
+        "Elastic force"
+    ]
+},
+{
+    "question": "The component of the resultant of the pressure forces of the medium, perpendicular to the direction of motion of a body moving in a liquid or gaseous medium, is called...",
+    "correct": "Lift force",
+    "options": [
+        "Friction force",
+        "Resistance force",
+        "Lift force",
+        "Gravity force"
+    ]
+},
+{
+    "question": "The physical quantity characterizing the measure of a body's inertia is...",
+    "correct": "Mass",
+    "options": ["Mass", "Velocity of motion", "Energy", "Power"]
+},
+{
+    "question": "The intensity of sound is determined by the following formula:",
+    "correct": "I = E / St",
+    "options": ["I = E / St", "I = P / A", "I = S / t", "I = E * t"]
+},
+{
+    "question": "Whose law is given in this formulation: 'Pressure exerted on a liquid or gas is transmitted without change in all directions through the liquid or gas'?",
+    "correct": "Pascal's",
+    "options": ["Newton's", "Pascal's", "Archimedes'", "Joule's"]
+},
+{
+    "question": "The process of propagation of elastic deformation in a medium is called...",
+    "correct": "Wave process or wave",
+    "options": ["Wave process or wave", "Collision", "Motion", "Oscillation"]
+},
+{
+    "question": "The sharp increase in the amplitude of forced oscillations when the frequency of the external force coincides with the natural frequency of the oscillating system is called...",
+    "correct": "Resonance",
+    "options": ["Oscillation", "Collision", "Resonance", "Motion"]
+},
+{
+    "question": "The motion in which a part of a body separates from it with a certain velocity, and the remaining part moves in the opposite direction, is called...",
+    "correct": "Reactive motion",
+    "options": [
+        "Rectilinear motion",
+        "Reactive motion",
+        "Variable motion",
+        "Circular motion"
+    ]
+},
+{
+    "question": "Oscillations that occur in a system under the influence of internal forces when the system is displaced from its equilibrium position are called...",
+    "correct": "Free oscillations",
+    "options": [
+        "Forced oscillations",
+        "Free oscillations",
+        "Harmonic oscillations",
+        "Damped oscillations"
+    ]
+},
+{
+    "question": "Periodic changes in the coordinate of an oscillating body with time, occurring according to the sine or cosine law, are called...",
+    "correct": "Harmonic oscillations",
+    "options": [
+        "Forced oscillations",
+        "Free oscillations",
+        "Harmonic oscillations",
+        "Damped oscillations"
+    ]
+},
+{
+    "question": "If the resultant of the external forces acting on the system is zero, then the momentum of the system...",
+    "correct": "Is conserved",
+    "options": [
+        "Is equal to 0",
+        "Is not conserved",
+        "Is conserved",
+        "The correct answer is absent"
+    ]
+},
+{
+    "question": "The product of the force and the time of its action is called...",
+    "correct": "Impulse of force",
+    "options": ["Momentum of the body", "Impulse of force", "Work", "Energy"]
+},
+{
+    "question": "The total mechanical energy of a closed system of bodies interacting with potential forces...",
+    "correct": "Is conserved",
+    "options": [
+        "Is equal to 0",
+        "Is not conserved",
+        "Is conserved",
+        "The correct answer is absent"
+    ]
+},
+{
+    "question": "The work of a potential force acting on a body is equal to the change in its potential energy with the opposite sign. This statement is called...",
+    "correct": "Theorem of potential energy",
+    "options": [
+        "Theorem of kinetic energy",
+        "Theorem of potential energy",
+        "Mechanical work",
+        "Power"
+    ]
+},{
+    "question": "The work done by the resultant of the forces acting on a body is equal to the change in the kinetic energy of the body. This statement is called...",
+    "correct": "Theorem of kinetic energy",
+    "options": [
+        "Theorem of kinetic energy",
+        "Theorem of potential energy",
+        "Mechanical work",
+        "Power"
+    ]
+},
+{
+    "question": "The quantity equal to the ratio of work to the time interval during which that work was done is called...",
+    "correct": "Power",
+    "options": ["Mechanical energy", "Force", "Power", "Momentum"]
+},
+{
+    "question": "The point of application of the resultant of the forces of gravity acting on all parts of the body is called...",
+    "correct": "Center of gravity",
+    "options": [
+        "Center of mass",
+        "Center of gravity",
+        "Midpoint",
+        "Point of application"
+    ]
+},
+{
+    "question": "Forces whose work depends only on the initial and final positions of their application points and does not depend on the shape of the trajectory are called...",
+    "correct": "Potential",
+    "options": ["Potential", "Non-potential", "Gravitational", "Strong"]
+},
+{
+    "question": "Undamped free oscillations are called...",
+    "correct": "Natural oscillations",
+    "options": [
+        "Natural oscillations",
+        "Forced oscillations",
+        "Free oscillations",
+        "Harmonic oscillations"
+    ]
+},
+{
+    "question": "The frequency of oscillations is usually denoted by...",
+    "correct": "ν = 1/T",
+    "options": ["ν = 1/T", "ν = T/1", "ν = T", "ν = 1"]
+},
+{
+    "question": "The point of intersection of the lines along which the acting forces impart only translational motion to the body is called...",
+    "correct": "Center of mass",
+    "options": [
+        "Center of mass",
+        "Center of gravity",
+        "Midpoint",
+        "Point of application"
+    ]
+},
+{
+    "question": "The minimum speed that must be imparted to a body near the Earth's surface to overcome the Earth's gravity is called...",
+    "correct": "Second cosmic velocity",
+    "options": [
+        "First cosmic velocity",
+        "Second cosmic velocity",
+        "Instantaneous velocity",
+        "Variable velocity"
+    ]
+},
+{
+    "question": "The force with which a body, due to the Earth's gravity, acts on a horizontal support or a vertical suspension is called...",
+    "correct": "Weight of the body",
+    "options": [
+        "Weight of the body",
+        "Force of gravity",
+        "Elastic force",
+        "Resistance force"
+    ]
+},
+{
+    "question": "The component perpendicular to the direction of motion is called...",
+    "correct": "Lift force",
+    "options": [
+        "Friction force",
+        "Resistance force",
+        "Lift force",
+        "Gravity force"
+    ]
+},
+{
+    "question": "The motion of a body under the influence of gravity alone is called...",
+    "correct": "Free fall",
+    "options": [
+        "Rectilinear uniform motion",
+        "Free fall",
+        "Uniformly variable motion",
+        "Circular motion"
+    ]
+},
+{
+    "question": "What did Archimedes shout?",
+    "correct": "«Eureka»",
+    "options": ["«Eureka»", "«Yes»", "«Hurray»", "«Oh»"]
+},
+{
+    "question": "Waves with a frequency below 16 Hz are called...",
+    "correct": "Infrasound",
+    "options": ["Infrasound", "Ultrasound", "Earth waves", "Ultrasound"]
+},
+{
+    "question": "Two bodies attract each other with forces whose modulus is directly proportional to the product of the masses of these bodies and inversely proportional to the square of the distance between them, and are directed along the line connecting the bodies. Which law is formulated?",
+    "correct": "Law of universal gravitation",
+    "options": [
+        "Law of universal gravitation",
+        "Archimedes' law",
+        "Pascal's law",
+        "Joule-Lenz law"
+    ]
+},
+{
+    "question": "What letter denotes the period of oscillations?",
+    "correct": "T",
+    "options": ["T", "ν", "f", "λ"]
+}
+]
