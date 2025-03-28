@@ -18,7 +18,7 @@
     "behance": ""
   },
   {
-    "image": "src/assets/usersPhotos/MariImg.jpg",
+    "image": "/assets/usersPhotos/MariImg.jpg",
     "nameFL": "Мари Мхитарян",
     "description": "Училась в средней школе № 10 имени В. Хамбардзумиана города Абовян. 4-5 месяцев посещала художественную школу, полгода училась в Тумо. Мне 16 лет.",
     "instagram": "https://www.instagram.com/__mkhitaryan._?igsh=MWMwNnE1YnNicHE2ZA==",
@@ -27,7 +27,7 @@
     "behance": ""
   },
   {
-    "image": "src/assets/usersPhotos/ManeImg.jpg",
+    "image": "assets/usersPhotos/ManeImg.jpg",
     "nameFL": "Мане Мирзоян",
     "description": "Мне 16 лет. Окончила художественную школу города Абовян, училась в средней школе № 10 города Абовян.",
     "instagram": "https://www.instagram.com/manul_mirzoyan?igsh=MXFmdXJvanEzNGttcw==",
