@@ -42,10 +42,10 @@ export default function Results() {
   };
 
   return quizResults.length > 0 ? (
-    <div className="w-full md:h-[calc(100vh-78px)] min-h-96 dark:text-gray-300 text-black text-xl bg-purple-300 transition-all duration-200 dark:bg-indigo-500 justify-center flex items-center">
+    <div className="w-full md:h-[calc(100vh-78px)] min-h-[calc(100vh-108px)] dark:text-gray-300 text-black text-xl bg-purple-300 transition-all duration-200 dark:bg-indigo-500 justify-center flex items-center">
       <div className="dark:bg-indigo-700 bg-purple-800 w-full lg:w-3/4 xl:1/2 p-6">
-        <div className="mb-4 flex justify-between items-center">
-          <div className="flex justify-center items-center gap-12">
+        <div className="mb-4 w-full flex md:justify-between justify-center items-center">
+          <div className="flex w-full justify-between md:flex-row flex-col items-center md:gap-11 gap-6">
             <div>
               <label className="text-gray-200  mr-2">{t("sort_by")}</label>
               <select
@@ -60,7 +60,7 @@ export default function Results() {
                 <option value="timeAsc">{t("result_least_time_spent")}</option>
               </select>
             </div>
-            <div>
+            <div className="flex justify-center items-center">
               <button
                 onClick={handleClearResults}
                 type="button"
@@ -68,10 +68,9 @@ export default function Results() {
               >
                 {t("clear")}
               </button>
+
+              <StartBtn px="px-4" py="py-2" />
             </div>
-          </div>
-          <div>
-            <StartBtn px="px-4" py="py-2" />
           </div>
         </div>
         <ul className="gap-5 max-h-[700px] overflow-auto flex custom-scrollbar flex-col">
@@ -105,7 +104,7 @@ export default function Results() {
       </div>
     </div>
   ) : (
-    <div className="w-full md:h-[calc(100vh-78px)] min-h-96 dark:text-gray-300 text-gray-700 gap-12 text-6xl bg-purple-300 transition-all duration-200 dark:bg-indigo-500 justify-center flex flex-col items-center">
+    <div className="w-full md:min-h-[calc(100vh-78px)] text-center min-h-[calc(100vh-108px)] dark:text-gray-300 text-gray-700 gap-12 text-6xl bg-purple-300 transition-all duration-200 dark:bg-indigo-500 justify-center flex flex-col items-center">
       <p>{t("no_results")}</p>
       <StartBtn />
     </div>
