@@ -47,6 +47,7 @@ export default function About() {
             facebook={item.facebook}
             tiktok={item.tiktok}
             behance={item.behance}
+            github={item.github}
           />
         ))}
       </div>
