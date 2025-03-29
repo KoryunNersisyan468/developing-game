@@ -1,5 +1,5 @@
 import UserCard from "@/components/UserCard";
-import AnanimImg from "@/assets/AnanimImage.jpg";
+import AnanimImg from "/AnanimImage.jpg";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -11,7 +11,7 @@ export default function About() {
     const language = i18n.language;
     localStorage.removeItem(`users_${language}`);
 
-    fetch(`${import.meta.env.BASE_URL}src/locales/${language}/users.json`)
+    fetch(`${import.meta.env.BASE_URL}locales/${language}/users.json`)
       .then((response) => response.json())
       .then((data) => {
         setUsersData(data);

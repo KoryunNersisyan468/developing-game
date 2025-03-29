@@ -36,7 +36,7 @@ export default function ContactDescription() {
         <h3 className="text-4xl md:text-5xl">{t("contact_h3")}</h3>
 
         <div>
-          <div className="text-xl md:text-2xl flex flex-col gap-5">
+          <div className="text-xl md:text-2xl justify-between items-start flex flex-col gap-5">
             <a
               className="flex sm:flex-row flex-col gap-3 items-center text-gray-800 dark:text-gray-300"
               href={`https://mail.google.com/mail/?view=cm&to=developingrestlotto@gmail.com&su=${t(

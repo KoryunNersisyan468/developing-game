@@ -8,17 +8,15 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    lng: "en",
+    lng: "en", 
     fallbackLng: "en",
     debug: true,
     interpolation: {
       escapeValue: false,
     },
     backend: {
-      loadPath: `${import.meta.env.BASE_URL}src/locales/{{lng}}/{{ns}}.json`,
+      loadPath: `${import.meta.env.BASE_URL}locales/{{lng}}/{{ns}}.json`,
     },
     ns: ["ui", "questions", "messages", "users", "blogs"],
     defaultNS: "ui",
   });
-
-export default i18n;

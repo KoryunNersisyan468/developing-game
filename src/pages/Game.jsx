@@ -26,7 +26,7 @@ export default function Game() {
   const loadQuestions = async (language) => {
     try {
       const response = await fetch(
-        `${import.meta.env.BASE_URL}src/locales/${language}/questions.json`
+        `${import.meta.env.BASE_URL}locales/${language}/questions.json`
       );
       const data = await response.json();
       const shuffledQuestions = shuffleQuestions(data);
@@ -113,9 +113,9 @@ export default function Game() {
       {!isGameStarted && (
         <div className="p-2 w-full transition-all duration-200 flex justify-center items-center min-h-[calc(100vh-142px)] mx-auto text-black dark:text-gray-200 ">
           <div className="w-3/4 gap-12 flex-col flex justify-center items-center">
-            <div className="text-xl">
+            <div className="md:text-xl text-lg">
               <div className="">
-                <p className="text-7xl font-bold float-left mr-2 leading-none">
+                <p className="md:text-7xl text-5xl font-bold float-left mr-2 leading-none">
                   {t("game_description_1")[0]}
                 </p>
                 <p className="align-text-top">
@@ -124,8 +124,8 @@ export default function Game() {
               </div>
 
               <br />
-              <div className="">
-                <p className="text-5xl font-bold float-left mr-2 leading-none">
+              <div >
+                <p className="md:text-5xl text-3xl font-bold float-left mr-2 leading-none">
                   {t("game_description_2").slice(0, 2)}
                 </p>
                 <p className="align-text-top">
@@ -137,7 +137,7 @@ export default function Game() {
               </div>
               <br />
               <div className="">
-                <p className="text-7xl font-bold float-left mr-2 leading-none">
+                <p className="md:text-7xl text-5xl font-bold float-left mr-2 leading-none">
                   {t("game_description_3")[0]}
                 </p>
                 <p className="align-text-top">
@@ -145,7 +145,7 @@ export default function Game() {
                 </p>
               </div>
               <br />
-              <p className="font-bold text-3xl text-center">
+              <p className="font-bold md:text-3xl text-xl text-center">
                 {t("game_description_4")}
               </p>
             </div>

@@ -23,7 +23,7 @@ function App() {
         <Route path="/results" element={<Results />} />
         <Route path="/game" element={<Game />} />
         <Route path="/blogs" element={<Blogs />} />
-        <Route path="/blogs/:slug" element={<BlogSingle />} />{" "}
+        <Route path="blogs/:slug" element={<BlogSingle />} />{" "}
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

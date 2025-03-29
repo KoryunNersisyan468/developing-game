@@ -1,7 +1,7 @@
 import Select from "react-select";
-import AmFlag from "../assets/flags/amFlag.png";
-import EnFlag from "../assets/flags/enFlag.png";
-import RuFlag from "../assets/flags/ruFlag.png";
+import AmFlag from "/flags/amFlag.png";
+import EnFlag from "/flags/enFlag.png";
+import RuFlag from "/flags/ruFlag.png";
 
 export default function LanguageSelector({
   selectedLanguage,
@@ -46,9 +46,7 @@ export default function LanguageSelector({
   };
 
   return (
-    <div
-      className={`w-20 ${isMenuOpen ? "visible" : "hidden"} md:inline`}
-    >
+    <div className={`w-20 ${isMenuOpen ? "visible" : "hidden"} md:inline`}>
       <Select
         options={languageOptions}
         value={languageOptions.find(

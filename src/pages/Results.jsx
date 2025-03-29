@@ -106,7 +106,7 @@ export default function Results() {
     </div>
   ) : (
     <div className="w-full md:h-[calc(100vh-78px)] min-h-96 dark:text-gray-300 text-gray-700 gap-12 text-6xl bg-purple-300 transition-all duration-200 dark:bg-indigo-500 justify-center flex flex-col items-center">
-      <p>No game results</p>
+      <p>{t("no_results")}</p>
       <StartBtn />
     </div>
   );

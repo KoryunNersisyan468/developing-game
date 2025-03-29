@@ -9,7 +9,11 @@ export default function Blogs() {
   useEffect(() => {
     const language = i18n.language;
 
-    fetch(`${import.meta.env.BASE_URL}src/locales/${language}/blogs.json`)
+    fetch(
+      `${
+        import.meta.env.BASE_URL
+      }locales/${language}/blogs.json`
+    )
       .then((response) => {
         if (!response.ok) {
           throw new Error(`Ошибка загрузки данных: ${response.status}`);
@@ -28,13 +32,17 @@ export default function Blogs() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {blogData.map((blog) => (
-          <Link key={blog.id} to={`/blogs/${blog.id}`} className="block">
+          <Link
+            key={blog.id}
+            to={`/blogs/${blog.id}`}
+            className="block"
+          >
             <div className="bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform duration-200">
               <img
                 src={
                   blog.images?.[0]
                     ? blog.images[0]
-                    : `${import.meta.env.BASE_URL}src/assets/HomeBg.png`
+                    : `${import.meta.env.BASE_URL}/HomeBg.png`
                 }
                 alt={blog.title}
                 className="w-full h-56 object-cover"
