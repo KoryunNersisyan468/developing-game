@@ -63,7 +63,7 @@ export default function Header() {
 
       <div className="flex justify-around md:flex-row flex-col items-center w-full">
         <Nav isMenuOpen={isMenuOpen} />
-        <div className="flex gap-4 flex-col md:flex-row items-start md:items-center mt-4 md:mt-0">
+        <div className="flex gap-4 flex-col md:flex-row items-center md:items-center mt-4 md:mt-0">
           <LanguageSelector
             isMenuOpen={isMenuOpen}
             selectedLanguage={selectedLanguage}

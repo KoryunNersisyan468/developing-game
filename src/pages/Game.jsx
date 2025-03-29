@@ -124,7 +124,7 @@ export default function Game() {
               </div>
 
               <br />
-              <div >
+              <div>
                 <p className="md:text-5xl text-3xl font-bold float-left mr-2 leading-none">
                   {t("game_description_2").slice(0, 2)}
                 </p>
@@ -164,7 +164,7 @@ export default function Game() {
           <div className="p-4 text-lg text-right dark:text-white text-black font-bold">
             {formatTime(timeLeft)}
           </div>
-          <div className="mt-3 pb-4 max-h-[calc(100vh-300px)] custom-scrollbar overflow-y-auto">
+          <div className="mt-3 lg:text-lg text-sm sm:text-base pb-4 max-h-[calc(100vh-300px)] custom-scrollbar overflow-y-auto">
             {quizQuestions.map((q, qIndex) => (
               <div key={qIndex} className="mb-4 p-4">
                 <h3 className="font-bold mb-2">{t(q.question)}</h3>
@@ -181,7 +181,7 @@ export default function Game() {
                     return (
                       <button
                         key={optIndex}
-                        className={`${bgColor} text-black p-2 rounded`}
+                        className={`${bgColor} text-xs sm:text-sm lg:text-base text-black p-2 rounded`}
                         onClick={() => handleSelect(qIndex, option)}
                         disabled={showResults}
                       >

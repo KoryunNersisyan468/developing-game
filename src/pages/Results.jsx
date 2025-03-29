@@ -43,10 +43,10 @@ export default function Results() {
 
   return quizResults.length > 0 ? (
     <div className="w-full md:h-[calc(100vh-78px)] min-h-[calc(100vh-108px)] dark:text-gray-300 text-black text-xl bg-purple-300 transition-all duration-200 dark:bg-indigo-500 justify-center flex items-center">
-      <div className="dark:bg-indigo-700 bg-purple-800 w-full lg:w-3/4 xl:1/2 p-6">
+      <div className="dark:bg-indigo-700 bg-purple-800 w-full lg:w-5/6 xl:1/2 p-6">
         <div className="mb-4 w-full flex md:justify-between justify-center items-center">
           <div className="flex w-full md:justify-between justify-cenetr md:flex-row flex-col items-center md:gap-11 gap-6">
-            <div className="flex w-full justify-center flex-col md:flex-row items-center">
+            <div className="flex gap-2 justify-center flex-col md:flex-row items-center">
               <label className="text-gray-200  mr-2">{t("sort_by")}</label>
               <select
                 className="p-2 border text-black rounded bg-amber-50"
@@ -90,7 +90,13 @@ export default function Results() {
                 </div>
                 <div>{item.timestamp}</div>
                 <div>
-                  {item.timeSpent} {t("seconds")}
+                  <span>
+                    {Math.floor(item.timeSpent / 60)} {t("minute")}{" "}
+                  </span>
+                  <span>
+                    {item.timeSpent - 60 * Math.floor(item.timeSpent / 60)}{" "}
+                    {t("seconds")}
+                  </span>
                 </div>
                 <div>
                   {item.score} / {item.totalQuestions}
