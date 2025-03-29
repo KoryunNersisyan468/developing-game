@@ -13,10 +13,10 @@ export default function Home() {
         alt="HomeBg"
       />
       <div className="absolute top-1/6 gap-24 left-1/10 flex transition-all duration-200 text-gray-900 dark:text-white flex-col justify-between items-start">
-        <h1 className="md:text-8xl  home_title font-bold text-5xl sm:text-6xl w-96 sm:w-xl w-sm">
+        <h1 className="md:text-8xl  home_title font-bold text-5xl sm:text-6xl w-96 sm:w-xl w-xs">
           {t("home_title")}
         </h1>
-        <p className="sm:text-4xl text-3xl w-96 sm:w-lg">
+        <p className="sm:text-4xl text-2xl w-96 sm:w-lg w-xs">
           {t("home_description")}
         </p>
         <StartBtn />

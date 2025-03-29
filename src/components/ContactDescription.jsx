@@ -36,9 +36,9 @@ export default function ContactDescription() {
         <h3 className="text-4xl md:text-5xl">{t("contact_h3")}</h3>
 
         <div>
-          <div className="text-xl md:text-2xl justify-between items-start flex flex-col gap-5">
+          <div className="text-xl md:text-2xl md:justify-between justify-center md:items-start items-center flex flex-col gap-5">
             <a
-              className="flex sm:flex-row flex-col gap-3 items-center text-gray-800 dark:text-gray-300"
+              className="flex sm:flex-row justify-center flex-col gap-3 items-center text-gray-800 dark:text-gray-300"
               href={`https://mail.google.com/mail/?view=cm&to=developingrestlotto@gmail.com&su=${t(
                 "gmail_a_su"
               )}&body=${t("gmail_a_body")}`}
@@ -48,7 +48,7 @@ export default function ContactDescription() {
                 <IoIosMail size={24} />
                 {t("email")}:{" "}
               </div>
-              <span className="text-gray-900 dark:text-gray-200">
+              <span className="text-gray-900 text-center dark:text-gray-200">
                 developingrestlotto@gmail.com
               </span>
             </a>

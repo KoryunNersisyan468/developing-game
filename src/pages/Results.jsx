@@ -45,8 +45,8 @@ export default function Results() {
     <div className="w-full md:h-[calc(100vh-78px)] min-h-[calc(100vh-108px)] dark:text-gray-300 text-black text-xl bg-purple-300 transition-all duration-200 dark:bg-indigo-500 justify-center flex items-center">
       <div className="dark:bg-indigo-700 bg-purple-800 w-full lg:w-3/4 xl:1/2 p-6">
         <div className="mb-4 w-full flex md:justify-between justify-center items-center">
-          <div className="flex w-full justify-between md:flex-row flex-col items-center md:gap-11 gap-6">
-            <div>
+          <div className="flex w-full md:justify-between justify-cenetr md:flex-row flex-col items-center md:gap-11 gap-6">
+            <div className="flex w-full justify-center flex-col md:flex-row items-center">
               <label className="text-gray-200  mr-2">{t("sort_by")}</label>
               <select
                 className="p-2 border text-black rounded bg-amber-50"
