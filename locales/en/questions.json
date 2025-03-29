@@ -175,9 +175,9 @@
     "options": ["Change of shape", "Motion", "Mass", "Reversibility"]
   },
   {
-    "question": "Kepler's laws mainly relate to the space system, particularly",
+    "question": "Kepler's laws mainly relate to the space system, particularly ․․․",
     "correct": "Planets",
-    "options": ["Molecules", "Planets", "Galaxies"]
+    "options": ["Molecules", "Planets", "Galaxies", "Stars"]
   },
   {
     "question": "What factor does the force of gravity acting on a body depend on?",
