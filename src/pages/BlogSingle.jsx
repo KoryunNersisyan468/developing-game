@@ -47,7 +47,7 @@ export default function BlogSingle() {
           />
         </div>
         <div className="lg:w-3/5 w-full p-2">
-          <div className="flex justify-between items-start">
+          <div className="flex justify-between flex-col md:flex-row items-start">
             <h1 className="lg:text-6xl text-4xl font-bold">{blog.title}</h1>
             <span className="mt-4 lg:text-3xl text-2xl">{blog.date}</span>
           </div>
