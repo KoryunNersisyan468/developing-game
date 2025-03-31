@@ -31,7 +31,7 @@ export default function ContactDescription() {
   return (
     <div className="flex w-full p-4 min-h-[calc(100vh-78px)] dark:bg-indigo-300 bg-purple-200 flex-col text-black dark:text-gray-200 gap-16 justify-center items-center transition-all duration-200">
       <div className="flex w-full mt-9 flex-col text-black dark:text-gray-200 gap-16 justify-center items-center">
-        <h1 className="md:text-8xl text-6xl text-center bg-gradient-to-r dark:from-indigo-800 dark:to-fuchsia-300 from-fuchsia-700 to-indigo-300 bg-clip-text text-transparent mt-4 font-bold">
+        <h1 className="md:text-8xl p-2 text-6xl text-center bg-gradient-to-r dark:from-indigo-800 dark:to-fuchsia-300 from-fuchsia-700 to-indigo-300 bg-clip-text text-transparent mt-4 font-bold">
           {t("contact_h1")}
         </h1>
         <h2 className="text-5xl md:text-6xl">{t("contact_h2")}</h2>

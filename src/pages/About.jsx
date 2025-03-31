@@ -9,21 +9,12 @@ export default function About() {
 
   useEffect(() => {
     const language = i18n.language;
-    const cachedData = localStorage.getItem(`users_${language}`);
-
-    if (cachedData) {
-      setUsersData(JSON.parse(cachedData));
-    } else {
-      fetch(`${import.meta.env.BASE_URL}locales/${language}/users.json`)
-        .then((response) => response.json())
-        .then((data) => {
-          setUsersData(data);
-          localStorage.setItem(`users_${language}`, JSON.stringify(data));
-        })
-        .catch((error) =>
-          console.error("Ошибка при загрузке пользователей:", error)
-        );
-    }
+    fetch(`${import.meta.env.BASE_URL}locales/${language}/users.json`)
+      .then((response) => response.json())
+      .then((data) => setUsersData(data))
+      .catch((error) =>
+        console.error("Ошибка при загрузке пользователей:", error)
+      );
   }, [i18n.language]);
 
   return (

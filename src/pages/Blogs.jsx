@@ -24,7 +24,7 @@ export default function Blogs() {
 
   return (
     <div className="w-full md:min-h-[calc(100vh-78px)] min-h-[calc(100vh-108px)] p-6 transition-all duration-200 bg-purple-300 dark:bg-indigo-900 text-black dark:text-white">
-      <h1 className="md:text-7xl text-5xl text-center bg-gradient-to-r dark:from-indigo-700 dark:to-fuchsia-300 from-fuchsia-700 to-indigo-300 bg-clip-text text-transparent mb-7 font-bold">
+      <h1 className="md:text-7xl p-2 text-5xl text-center bg-gradient-to-r dark:from-indigo-700 dark:to-fuchsia-300 from-fuchsia-700 to-indigo-300 bg-clip-text text-transparent mb-7 font-bold">
         {t("blogs")}
       </h1>
 
