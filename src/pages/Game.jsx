@@ -112,7 +112,7 @@ export default function Game() {
     <div className="bg-purple-200 dark:bg-indigo-400 transition-all duration-200 p-8 w-full">
       {!isGameStarted && (
         <div className="p-2 w-full transition-all duration-200 flex justify-center items-center min-h-[calc(100vh-142px)] mx-auto text-black dark:text-gray-200 ">
-          <div className="w-3/4 gap-12 flex-col flex justify-center items-center">
+          <div className="md:w-3/4 sm:w-4/5 w-full gap-12 flex-col flex justify-center items-center">
             <div className="md:text-xl text-lg">
               <div className="">
                 <p className="md:text-7xl text-5xl font-bold float-left mr-2 leading-none">
@@ -164,7 +164,7 @@ export default function Game() {
           <div className="p-4 text-lg text-right dark:text-white text-black font-bold">
             {formatTime(timeLeft)}
           </div>
-          <div className="mt-3 lg:text-lg text-sm sm:text-base pb-4 max-h-[calc(100vh-300px)] custom-scrollbar overflow-y-auto">
+          <div className="mt-3 lg:text-lg text-sm sm:text-base pb-4 max-h-[calc(100vh-300px)] min-h-40 custom-scrollbar overflow-y-auto">
             {quizQuestions.map((q, qIndex) => (
               <div key={qIndex} className="mb-4 p-4">
                 <h3 className="font-bold mb-2">{t(q.question)}</h3>

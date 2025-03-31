@@ -9,11 +9,7 @@ export default function Blogs() {
   useEffect(() => {
     const language = i18n.language;
 
-    fetch(
-      `${
-        import.meta.env.BASE_URL
-      }locales/${language}/blogs.json`
-    )
+    fetch(`${import.meta.env.BASE_URL}locales/${language}/blogs.json`)
       .then((response) => {
         if (!response.ok) {
           throw new Error(`Ошибка загрузки данных: ${response.status}`);
@@ -28,15 +24,13 @@ export default function Blogs() {
 
   return (
     <div className="w-full md:min-h-[calc(100vh-78px)] min-h-[calc(100vh-108px)] p-6 transition-all duration-200 bg-purple-300 dark:bg-indigo-900 text-black dark:text-white">
-      <h1 className="text-5xl font-bold mb-8 text-center">{t("blogs")}</h1>
+      <h1 className="md:text-7xl text-5xl text-center bg-gradient-to-r dark:from-indigo-700 dark:to-fuchsia-300 from-fuchsia-700 to-indigo-300 bg-clip-text text-transparent mb-6 font-bold">
+        {t("blogs")}
+      </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {blogData.map((blog) => (
-          <Link
-            key={blog.id}
-            to={`/blogs/${blog.id}`}
-            className="block"
-          >
+          <Link key={blog.id} to={`/blogs/${blog.id}`} className="block">
             <div className="bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform duration-200">
               <img
                 src={
