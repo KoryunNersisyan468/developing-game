@@ -9,17 +9,21 @@ export default function About() {
 
   useEffect(() => {
     const language = i18n.language;
-    localStorage.removeItem(`users_${language}`);
+    const cachedData = localStorage.getItem(`users_${language}`);
 
-    fetch(`${import.meta.env.BASE_URL}locales/${language}/users.json`)
-      .then((response) => response.json())
-      .then((data) => {
-        setUsersData(data);
-        localStorage.setItem(`users_${language}`, JSON.stringify(data));
-      })
-      .catch((error) =>
-        console.error("Ошибка при загрузке пользователей:", error)
-      );
+    if (cachedData) {
+      setUsersData(JSON.parse(cachedData));
+    } else {
+      fetch(`${import.meta.env.BASE_URL}locales/${language}/users.json`)
+        .then((response) => response.json())
+        .then((data) => {
+          setUsersData(data);
+          localStorage.setItem(`users_${language}`, JSON.stringify(data));
+        })
+        .catch((error) =>
+          console.error("Ошибка при загрузке пользователей:", error)
+        );
+    }
   }, [i18n.language]);
 
   return (
@@ -28,7 +32,7 @@ export default function About() {
         <h1 className="md:text-8xl text-6xl text-center bg-gradient-to-r dark:from-indigo-700 dark:to-fuchsia-300 from-fuchsia-700 to-indigo-300 bg-clip-text text-transparent mt-4 font-bold">
           {t("about_h")}
         </h1>
-        <p className="md:text-3xl text-2xl border-0 flex flex-col gap-3 justify-between items-start  dark:border-blue-300 border-purple-300 rounded-2xl box-border p-5 mt-6 w-full">
+        <p className="md:text-3xl text-2xl border-0 flex flex-col gap-3 justify-between items-start dark:border-blue-300 border-purple-300 rounded-2xl box-border p-5 mt-6 w-full">
           <span>{t("about_description_1")}</span>
           <span>{t("about_description_2")}</span>
           <span>{t("about_description_3")}</span>
@@ -40,7 +44,11 @@ export default function About() {
         {usersData.map((item, index) => (
           <UserCard
             key={index}
-            src={item.image || AnanimImg}
+            src={
+              item.image
+                ? `${import.meta.env.BASE_URL}${item.image}`
+                : AnanimImg
+            }
             description={item.description}
             nameFL={item.nameFL}
             instagram={item.instagram}
