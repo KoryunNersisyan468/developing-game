@@ -14,7 +14,7 @@ export default function UserCard({
   instagram,
   tiktok,
   behance,
-  github
+  github,
 }) {
   return (
     <div className="w-[340px] min-h-[500px] h-auto bg-linear-to-r from-purple-200 via-purple-100 to-purple-200 dark:from-blue-200 dark:via-blue-100 dark:to-blue-200 border-4 transition-all duration-200 dark:border-blue-300 border-purple-300 rounded-2xl flex gap-5 flex-col p-5 justify-around items-center">

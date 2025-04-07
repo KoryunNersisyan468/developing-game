@@ -5,6 +5,10 @@
     width: 8px;
 }
 
+img {
+    pointer-events: none;
+}
+
 .custom-scrollbar::-webkit-scrollbar-thumb {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 4px;
