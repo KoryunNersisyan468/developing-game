@@ -21,8 +21,8 @@ export default function UserCard({
       <div className="rounded-full w-32 h-32">
         <img src={src} className="w-full rounded-full h-full" alt="UserCard" />
       </div>
-      <div className="flex flex-col  justify-center items-center gap-4">
-        <div className="text-2xl">{nameFL}</div>
+      <div className="flex flex-col justify-center items-center gap-4">
+        <div className="text-2xl text-center">{nameFL}</div>
         <div className="flex gap-6 text-center justify-center items-center flex-col">
           <div className="text-sm">{description}</div>
           <div className="flex justify-around items-center gap-6">
