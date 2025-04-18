@@ -1,22 +1,17 @@
 [
   {
     "id": "1",
-    "title": "Phase 1. Students' Voice and Right to Choose",
+    "title": "Stage 1. Students' Voice and Right to Choose",
     "date": "03.03.2025",
-    "description": "Students are introduced to the project topic and key issues, and it is explained what they need to do within the framework of the project. The relevance of the topic is discussed. Groups are formed, and students are given the opportunity to choose their roles within the groups based on their interests. Each member receives a specific task.",
-    "images": [
-      "blogs/Blog1_1.jpg",
-      "blogs/Blog1_2.jpg",
-      "blogs/Blog1_3.jpg",
-      "blogs/Blog1_4.jpg"
-    ],
+    "description": "Students are introduced to the project topic and key issues, and it is explained what they are expected to do within this framework. The relevance of the topic is discussed. Groups are formed, and students are given the opportunity to choose their role in the group based on their preferences. Each member is assigned a specific task.",
+    "images": ["blogs/Blog1_1.jpg", "blogs/Blog1_2.jpg"],
     "videos": ["", ""]
   },
   {
     "id": "2",
-    "title": "Phase 2. Research",
+    "title": "Stage 2. Research",
     "date": "10.03.2025",
-    "description": "Students decide in their groups which sources to use for their research. They study various sources and gather information that will help them answer the key questions.",
+    "description": "In their groups, students decide which sources to use for conducting their research. They explore various sources, gather information that will help them find answers to the key questions.",
     "images": [
       "blogs/Blog2_1.png",
       "blogs/Blog2_2.png",
@@ -28,39 +23,62 @@
   },
   {
     "id": "3",
-    "title": "Phase 3. Data Processing",
+    "title": "Stage 3. Data Processing",
     "date": "17.03.2025",
-    "description": "Students compare, analyze, and process information and facts collected from different sources. While writing their material, they indicate which sources they used.",
+    "description": "Students compare, analyze, process, and practically apply the data and facts collected from various sources. While writing the material, students indicate the sources they used.",
     "images": [
       "blogs/Blog3_4.jpg",
       "blogs/Blog3_2.jpg",
       "blogs/Blog3_3.jpg",
       "blogs/Blog3_1.jpg",
-      "blogs/Blog3_8.jpg"
+      "blogs/Blog3_5.jpg",
+      "blogs/Blog3_6.jpg"
     ],
     "videos": ["blogs/Blog3_5.mp4", "blogs/Blog3_6.mp4", "blogs/Blog3_7.mp4"]
   },
   {
     "id": "4",
-    "title": "Phase 4. Project Implementation",
+    "title": "Stage 4. Project Implementation",
     "date": "31.03.2025",
-    "description": "At this stage, discussions are held based on the collected data. Based on the data, students begin to develop an educational lotto-style game.",
-    "images": ["", "", "", ""],
+    "description": "At this stage, class discussions are held based on the data already collected. The group discussions should help the teacher see to what extent the students have been able to find answers to the research questions.",
+    "images": [
+      "blogs/Blog4_1.jpg",
+      "blogs/Blog4_2.jpg",
+      "blogs/Blog4_3.jpg",
+      "blogs/Blog4_4.jpg"
+    ],
     "videos": ["", ""]
   },
   {
     "id": "5",
-    "title": "Phase 5. Project Review",
+    "title": "Stage 5. Creating an Educational Lotto Game",
     "date": "07.04.2025",
-    "description": "After receiving feedback, groups review their work, make necessary changes, and present the preliminary game cards. The game questions are uploaded to the website created for the project.",
-    "images": ["", "", "", ""],
+    "description": "Based on the collected data, students begin creating an educational lotto game. The selected and processed questions should be included in the game cards.",
+    "images": ["blogs/Blog5_1.jpg", "blogs/Blog5_2.jpg", "blogs/Blog5_3.jpg"],
     "videos": ["", ""]
   },
   {
     "id": "6",
-    "title": "Phase 6. Project Completion",
+    "title": "Stage 6. Project Review",
     "date": "14.04.2025",
-    "description": "Groups present their corrected work. Students prepare a presentation summarizing all the research done during the project and get ready to present their work.",
+    "description": "After receiving feedback, groups review their work, make necessary changes, and present the initially prepared game cards. The game questions are uploaded to the project website.",
+    "images": [
+      "blogs/Blog6_1.jpg",
+      "blogs/Blog6_2.jpg",
+      "blogs/Blog6_3.jpg",
+      "blogs/Blog6_4.jpg",
+      "blogs/Blog6_5.jpg",
+      "blogs/Blog6_6.jpg",
+      "blogs/Blog6_7.jpg"
+
+    ],
+    "videos": ["", ""]
+  },
+  {
+    "id": "7",
+    "title": "Stage 7. Project Finalization and Presentation",
+    "date": "21.04.2025",
+    "description": "During the presentation, the final result should include a slideshow, a website, and the lotto game cards.",
     "images": ["", "", "", ""],
     "videos": ["", ""]
   }
