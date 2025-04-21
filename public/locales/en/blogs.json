@@ -83,10 +83,10 @@
   },
   {
     "id": "8",
-    "title": "3D Model of Our Classroom",
+    "title": "3D model of a physics classroom",
     "date": "",
     "description": "This image shows a 3D model of our classroom, which we created using Blender. The model was built collaboratively with careful attention to the details of the room.",
     "images": ["blogs/Blog7_1.jpg", "", "", ""],
-    "videos": ["", ""]
+    "videos": ["blogs/Blog7_2.mp4", ""]
   }
 ]
