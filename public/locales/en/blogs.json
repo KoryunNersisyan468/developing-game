@@ -78,15 +78,49 @@
     "title": "Stage 7. Project Finalization and Presentation",
     "date": "21.04.2025",
     "description": "During the presentation, the final result should include a slideshow, a website, and the lotto game cards.",
-    "images": ["", "", "", ""],
-    "videos": ["", ""]
+    "images": [
+      "blogs/Blog7_1.jpg",
+      "blogs/Blog7_2.jpg",
+      "blogs/Blog7_3.jpg",
+      "blogs/Blog7_4.jpg",
+      "blogs/Blog7_5.jpg",
+      "blogs/Blog7_6.jpg",
+      "blogs/Blog7_7.jpg",
+      "blogs/Blog7_8.jpg",
+      "blogs/Blog7_9.jpg",
+      "blogs/Blog7_10.jpg",
+      "blogs/Blog7_11.jpg",
+      "blogs/Blog7_12.jpg",
+      "blogs/Blog7_13.jpg",
+      "blogs/Blog7_14.jpg",
+      "blogs/Blog7_15.jpg",
+      "blogs/Blog7_16.jpg",
+      "blogs/Blog7_17.jpg",
+      "blogs/Blog7_18.jpg",
+      "blogs/Blog7_19.jpg",
+      "blogs/Blog7_20.jpg",
+      "blogs/Blog7_21.jpg",
+      "blogs/Blog7_22.jpg",
+      "blogs/Blog7_23.jpg",
+      "blogs/Blog7_24.jpg",
+      "blogs/Blog7_25.jpg",
+      "blogs/Blog7_26.jpg"
+    ],
+    "videos": [
+      "blogs/Blog7_27.MOV",
+      "blogs/Blog7_28.MOV",
+      "blogs/Blog7_29.MOV",
+      "blogs/Blog7_30.MOV",
+      "blogs/Blog7_31.MOV",
+      "blogs/Blog7_32.MOV"
+    ]
   },
   {
     "id": "8",
     "title": "3D model of a physics classroom",
     "date": "",
     "description": "This image shows a 3D model of our classroom, which we created using Blender. The model was built collaboratively with careful attention to the details of the room.",
-    "images": ["blogs/Blog7_1.jpg", "", "", ""],
-    "videos": ["blogs/Blog7_2.mp4", ""]
+    "images": ["blogs/Blog8_1.jpg"],
+    "videos": ["blogs/Blog8_2.mp4", "blogs/Blog8_3.mp4"]
   }
 ]
