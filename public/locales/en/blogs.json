@@ -70,7 +70,6 @@
       "blogs/Blog6_5.jpg",
       "blogs/Blog6_6.jpg",
       "blogs/Blog6_7.jpg"
-
     ],
     "videos": ["", ""]
   },
@@ -80,6 +79,14 @@
     "date": "21.04.2025",
     "description": "During the presentation, the final result should include a slideshow, a website, and the lotto game cards.",
     "images": ["", "", "", ""],
+    "videos": ["", ""]
+  },
+  {
+    "id": "8",
+    "title": "3D Model of Our Classroom",
+    "date": "",
+    "description": "This image shows a 3D model of our classroom, which we created using Blender. The model was built collaboratively with careful attention to the details of the room.",
+    "images": ["blogs/Blog7_1.jpg", "", "", ""],
     "videos": ["", ""]
   }
 ]
