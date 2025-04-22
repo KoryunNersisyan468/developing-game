@@ -1,7 +1,9 @@
-import { useParams } from "react-router";
+import { Link, useParams } from "react-router";
+import { FaArrowCircleLeft } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 import Carousel from "../components/Carousel";
+import BlogInfo from "../components/BlogInfo";
 
 export default function BlogSingle() {
   const { i18n } = useTranslation();
@@ -30,29 +32,10 @@ export default function BlogSingle() {
 
   return (
     <div className="w-full box-border min-h-[calc(100vh-108px)] md:min-h-[calc(100vh-78px)] p-3 dark:text-gray-300 text-black bg-purple-300 transition-all duration-200 dark:bg-indigo-500 justify-center items-start flex-col">
-      <div className="w-full flex-col xl:flex-row justify-between items-start flex gap-6">
-        <div className="xl:w-2/5 w-full">
-          <img
-            className="object-cover max-h-[60vh] w-full"
-            src={
-              blog.images?.[0]
-                ? `${import.meta.env.BASE_URL}${blog.images[0]}`
-                : `${import.meta.env.BASE_URL}HomeBg.png`
-            }
-            alt="BlogImg"
-          />
-        </div>
-        <div className="lg:w-3/5 w-full p-2">
-          <div className="flex justify-between flex-col xl:flex-row items-start">
-            <h1 className="lg:text-6xl text-4xl font-bold">{blog.title}</h1>
-            <span className="mt-4 lg:text-3xl text-2xl">{blog.date}</span>
-          </div>
-          <div className="lg:text-2xl text-xl mt-7 xl:mt-14">
-            {blog.description}
-          </div>
-        </div>
-      </div>
-
+      <Link to="/blogs">
+        <FaArrowCircleLeft className="text-5xl md:text-6xl" />
+      </Link>
+      <BlogInfo blog={blog} />
       <div className="w-full mt-5 box-border">
         <Carousel blog={blog} />
       </div>

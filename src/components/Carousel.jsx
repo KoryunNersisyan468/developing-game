@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import { AiOutlineLeft, AiOutlineRight, AiOutlineClose } from "react-icons/ai";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import LazyImage from "./LazyImage";
 
 export default function Carousel({ blog }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -75,12 +76,12 @@ export default function Carousel({ blog }) {
     return (
       <>
         <div onClick={() => openModal(0)}>
-        <img
-          src={src}
-          alt="single-image"
-          className="sm:h-[350px] h-64 mt-20 rounded-lg cursor-pointer"
-          
-        /></div>
+          <LazyImage
+            src={src}
+            alt="single-image"
+            className="sm:h-[350px] h-64 mt-20 rounded-lg cursor-pointer"
+          />
+        </div>
         {isOpen && (
           <div className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50 transition-opacity duration-300">
             <button
@@ -89,7 +90,7 @@ export default function Carousel({ blog }) {
             >
               <AiOutlineClose size={32} />
             </button>
-            <img
+            <LazyImage
               src={fullImageList[currentIndex]}
               alt="fullscreen"
               className="w-full h-full object-contain"
@@ -103,6 +104,7 @@ export default function Carousel({ blog }) {
   return (
     <div className="py-8 px-1 w-full rounded-2xl text-center bg-gray-300">
       <Slider
+        className="pb-16 sm:pb-6 md:pb-3 lg:pb-1"
         dots={true}
         arrows={false}
         infinite={true}
@@ -122,7 +124,7 @@ export default function Carousel({ blog }) {
               key={`image-${index}`}
               className="px-2"
             >
-              <img
+              <LazyImage
                 src={src}
                 alt={`image-${index}`}
                 className="w-full sm:h-96 h-64 rounded-lg cursor-pointer"
@@ -151,7 +153,7 @@ export default function Carousel({ blog }) {
           >
             <AiOutlineClose size={32} />
           </button>
-          <img
+          <LazyImage
             src={fullImageList[currentIndex]}
             alt="fullscreen"
             className="w-full h-full object-contain"

@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import StartBtn from "../components/StartBtn";
+import ResultsOptions from "../components/ResultsOptions";
+import NoResults from "../components/NoResults";
 
 export default function Results() {
   const { t } = useTranslation("messages");
@@ -79,40 +81,11 @@ export default function Results() {
               (item.score / item.totalQuestions) * 100
             );
             return (
-              <li
-                key={index}
-                className={`w-full p-3 flex md:flex-row flex-col justify-between items-start dark:bg-indigo-100 bg-purple-100 ${getResultColor(
-                  percentage
-                )}`}
-              >
-                <div className="bg-gray-300 text-center rounded-full w-7 h-7">
-                  {item.index + 1}
-                </div>
-                <div>{item.timestamp}</div>
-                <div>
-                  <span>
-                    {Math.floor(item.timeSpent / 60)} {t("minute")}{" "}
-                  </span>
-                  <span>
-                    {item.timeSpent - 60 * Math.floor(item.timeSpent / 60)}{" "}
-                    {t("seconds")}
-                  </span>
-                </div>
-                <div>
-                  {item.score} / {item.totalQuestions}
-                </div>
-                <div>{percentage}%</div>
-                <div>{getResultText(percentage)}</div>
-              </li>
+              <ResultsOptions t={t} key={index} item={item} percentage={percentage} getResultColor={getResultColor} getResultText={getResultText} />
             );
           })}
         </ul>
       </div>
     </div>
-  ) : (
-    <div className="w-full md:min-h-[calc(100vh-78px)] text-center min-h-[calc(100vh-108px)] dark:text-gray-300 text-gray-700 gap-12 text-4xl md:text-6xl bg-purple-300 transition-all duration-200 dark:bg-indigo-500 justify-center flex flex-col items-center">
-      <p>{t("no_results")}</p>
-      <StartBtn />
-    </div>
-  );
+  ) : <NoResults t={t} />
 }

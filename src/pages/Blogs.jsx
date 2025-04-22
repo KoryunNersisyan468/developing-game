@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
+import BlogCard from "../components/BlogCard";
 
 export default function Blogs() {
   const { t, i18n } = useTranslation("");
@@ -30,26 +31,7 @@ export default function Blogs() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 mt-2 lg:grid-cols-3 gap-6">
         {blogData.map((blog) => (
-          <Link key={blog.id} to={`/blogs/${blog.id}`} className="block">
-            <div className="bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform duration-200">
-              <img
-                src={
-                  blog.images?.[0]
-                    ? blog.images[0]
-                    : `${import.meta.env.BASE_URL}/HomeBg.png`
-                }
-                alt={blog.title}
-                className="w-full h-56 object-cover"
-              />
-              <div className="p-4">
-                <h2 className="text-xl font-semibold">{blog.title}</h2>
-                <p className="text-gray-600 dark:text-gray-300">{blog.date}</p>
-                <p className="text-gray-500 dark:text-gray-400 mt-2 line-clamp-2">
-                  {blog.description}
-                </p>
-              </div>
-            </div>
-          </Link>
+          <BlogCard blog={blog} key={blog.id} />
         ))}
       </div>
     </div>

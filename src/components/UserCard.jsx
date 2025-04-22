@@ -19,7 +19,11 @@ export default function UserCard({
   return (
     <div className="w-[340px] min-h-[500px] h-auto bg-linear-to-r from-purple-200 via-purple-100 to-purple-200 dark:from-blue-200 dark:via-blue-100 dark:to-blue-200 border-4 transition-all duration-200 dark:border-blue-300 border-purple-300 rounded-2xl flex gap-5 flex-col p-5 justify-around items-center">
       <div className="rounded-full w-32 h-32">
-        <img src={src} className="w-full rounded-full h-full" alt="UserCard" />
+        <LazyImage
+          src={src}
+          className="w-full rounded-full h-full"
+          alt="UserCard"
+        />
       </div>
       <div className="flex flex-col justify-center items-center gap-4">
         <div className="text-2xl text-center">{nameFL}</div>

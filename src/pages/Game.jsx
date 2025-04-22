@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { useNavigate } from "react-router";
+import GameIntro from "../components/GameIntro";
+import GameOverScreen from "../components/GameOverScreen";
 
 export default function Game() {
   const { t, i18n } = useTranslation();
-  const navigate = useNavigate();
+
   const [quizQuestions, setQuizQuestions] = useState([]);
   const [selectedAnswers, setSelectedAnswers] = useState({});
   const [showResults, setShowResults] = useState(false);
@@ -110,55 +111,7 @@ export default function Game() {
 
   return (
     <div className="bg-purple-200 dark:bg-indigo-400 transition-all duration-200 p-8 w-full">
-      {!isGameStarted && (
-        <div className="p-2 w-full transition-all duration-200 flex justify-center items-center min-h-[calc(100vh-142px)] mx-auto text-black dark:text-gray-200 ">
-          <div className="md:w-3/4 sm:w-4/5 w-full gap-12 flex-col flex justify-center items-center">
-            <div className="md:text-xl text-lg">
-              <div className="">
-                <p className="md:text-7xl text-5xl font-bold float-left mr-2 leading-none">
-                  {t("game_description_1")[0]}
-                </p>
-                <p className="align-text-top">
-                  {t("game_description_1").slice(1)}
-                </p>
-              </div>
-
-              <br />
-              <div>
-                <p className="md:text-5xl text-3xl font-bold float-left mr-2 leading-none">
-                  {t("game_description_2").slice(0, 2)}
-                </p>
-                <p className="align-text-top">
-                  {t("game_description_2").slice(
-                    2,
-                    t("game_description_2").length
-                  )}
-                </p>
-              </div>
-              <br />
-              <div className="">
-                <p className="md:text-7xl text-5xl font-bold float-left mr-2 leading-none">
-                  {t("game_description_3")[0]}
-                </p>
-                <p className="align-text-top">
-                  {t("game_description_3").slice(1)}
-                </p>
-              </div>
-              <br />
-              <p className="font-bold md:text-3xl text-xl text-center">
-                {t("game_description_4")}
-              </p>
-            </div>
-            <button
-              onClick={handleStartGame}
-              type="button"
-              className="dark:text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br text-3xl focus:ring-4 focus:outline-none focus:ring-green-300 text-gray-800 dark:focus:ring-green-800 font-medium rounded-lg px-12 py-4 text-center me-4 mb-4"
-            >
-              {t("start")}
-            </button>
-          </div>
-        </div>
-      )}
+      {!isGameStarted && <GameIntro t={t} handleStartGame={handleStartGame} />}
       {isGameStarted && (
         <div className="w-full min-h-[calc(100vh-142px)] sm:w-5/6 md:w-4/5 lg:w-3/4 xl:w-2/3 transition-all duration-200 mx-auto text-black dark:text-gray-200 bg-purple-300 dark:bg-indigo-700">
           <div className="p-4 text-lg text-right dark:text-white text-black font-bold">
@@ -202,37 +155,14 @@ export default function Game() {
               </button>
             </div>
           </div>
-
           {showResults && (
-            <div className="mt-2 p-2 text-lg text-center">
-              <p>{t("game_over")}</p>
-              <p>
-                {t("time_spent")}: {formatTime(600 - timeLeft)}
-              </p>
-              <p>
-                {t("score")}: {correctAnswers} / {quizQuestions.length}
-              </p>
-              <div>
-                <button
-                  className="m-2 p-2 bg-cyan-500 text-white rounded"
-                  onClick={() => navigate("/results")}
-                >
-                  {t("see_results")}
-                </button>
-              </div>
-              <button
-                className="m-2 p-2 bg-blue-500 text-white rounded"
-                onClick={() => window.location.reload()}
-              >
-                {t("play_again")}
-              </button>
-              <button
-                className="m-2 p-2 bg-gray-500 text-white rounded"
-                onClick={() => navigate("/home")}
-              >
-                {t("home")}
-              </button>
-            </div>
+            <GameOverScreen
+              timeLeft={timeLeft}
+              correctAnswers={correctAnswers}
+              quizQuestions={quizQuestions}
+              formatTime={formatTime}
+              t={t}
+            />
           )}
         </div>
       )}
