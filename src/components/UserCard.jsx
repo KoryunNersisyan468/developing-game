@@ -6,6 +6,8 @@ import {
   FaGithub,
 } from "react-icons/fa";
 
+import LazyImage from "./LazyImage";
+
 export default function UserCard({
   src,
   nameFL,

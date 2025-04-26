@@ -1,3 +1,5 @@
+import LazyImage from "./LazyImage";
+
 export default function BlogInfo({blog}) {
     return (
       <div className="w-full mt-3 flex-col xl:flex-row justify-between items-start flex gap-6">
