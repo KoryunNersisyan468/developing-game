@@ -1,4 +1,3 @@
-import { Link } from "react-router";
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 import BlogCard from "../components/BlogCard";

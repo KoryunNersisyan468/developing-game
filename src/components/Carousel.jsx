@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Slider from "react-slick";
 import { AiOutlineLeft, AiOutlineRight, AiOutlineClose } from "react-icons/ai";
 import "slick-carousel/slick/slick.css";
@@ -29,10 +29,10 @@ export default function Carousel({ blog }) {
     blockScroll();
   };
 
-  const closeModal = () => {
+  const closeModal = useCallback(() => {
     setIsOpen(false);
     unblockScroll();
-  };
+  }, []);
 
   const nextImage = () => {
     setCurrentIndex((prev) => (prev + 1) % fullImageList.length);
@@ -56,7 +56,7 @@ export default function Carousel({ blog }) {
       document.removeEventListener("keydown", handleKeyDown);
       unblockScroll();
     };
-  }, []);
+  }, [closeModal]);
 
   if (validVideos.length === 0 && validImages.length === 0) return null;
 
