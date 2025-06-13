@@ -35,7 +35,7 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Usage](#usage)
-- [Screenshots](#-game-screenshots)
+- [Screenshots](#game-screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
@@ -43,6 +43,7 @@
 ---
 
 ## Overview
+
 This project is an interactive **physics quiz game** built with **React**.  
 Players answer physics-related questions within a time limit, and their final score is calculated based on correct answers.
 
@@ -58,9 +59,15 @@ It’s perfect for students, teachers, or anyone interested in physics and web d
 
 ---
 
-## Features
+## 🛠️ Features
 
-<code>❯ REPLACE-ME</code>
+- 🎮 Interactive physics quiz game
+- 🌐 Multilingual support: Armenian, Russian, and English
+- 🌓 Light and dark theme support
+- ⏱️ Timer for the entire game
+- 📊 Results summary and display
+- 📱 Responsive design for mobile devices
+- 🖼️ Clean and colorful user interface
 
 ---
 
@@ -572,23 +579,22 @@ npm run dev
 
 ### 🏠 Home Page
 
-![Home Page](screenshots/HomePage.png)
+![Home Page](/public/screenshots/HomePage.png)
 
 ### 🎮 Game Page
 
-![Game Before](screenshots/GameBeforePage.png)  
-![Game In Progress](screenshots/GamePage.png)
+![Game Before](/public/screenshots/GameBeforePage.png)  
+![Game In Progress](/public/screenshots/GamePage.png)
 
 ### 🏁 Result Page
 
-![Result Page](screenshots/ResultPage.png)
+![Result Page](/public/screenshots/ResultPage.png)
 
 ### 📬 Contact Page
 
-![Contact Page](screenshots/ContactPage.png)
+![Contact Page](/public/screenshots/ContactPage.png)
 
 ---
-
 
 ## Contributing
 
