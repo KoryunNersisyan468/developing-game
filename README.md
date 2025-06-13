@@ -122,23 +122,23 @@ It’s perfect for students, teachers, or anyone interested in physics and web d
 			</thead>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/eslint.config.js'>eslint.config.js</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/package.json'>package.json</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/index.html'>index.html</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/package-lock.json'>package-lock.json</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'>❯ REPLACE-ME</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/vite.config.js'>vite.config.js</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 				</tr>
 			</table>
 		</blockquote>
@@ -158,19 +158,19 @@ It’s perfect for students, teachers, or anyone interested in physics and web d
 			</thead>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/google88b87ba01b7366b3.html'>google88b87ba01b7366b3.html</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/404.html'>404.html</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/robots.txt'>robots.txt</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/sitemap.xml'>sitemap.xml</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 				</tr>
 			</table>
 			<!-- blogs Submodule -->
@@ -188,27 +188,27 @@ It’s perfect for students, teachers, or anyone interested in physics and web d
 					</thead>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/blogs/Blog7_31.MOV'>Blog7_31.MOV</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/blogs/Blog7_28.MOV'>Blog7_28.MOV</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/blogs/Blog7_30.MOV'>Blog7_30.MOV</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/blogs/Blog7_27.MP4'>Blog7_27.MP4</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/blogs/Blog7_32.MOV'>Blog7_32.MOV</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/blogs/Blog7_29.MOV'>Blog7_29.MOV</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 					</table>
 				</blockquote>
@@ -234,23 +234,23 @@ It’s perfect for students, teachers, or anyone interested in physics and web d
 							</thead>
 								<tr style='border-bottom: 1px solid #eee;'>
 									<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/locales/ru/messages.json'>messages.json</a></b></td>
-									<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+									<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 								</tr>
 								<tr style='border-bottom: 1px solid #eee;'>
 									<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/locales/ru/blogs.json'>blogs.json</a></b></td>
-									<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+									<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 								</tr>
 								<tr style='border-bottom: 1px solid #eee;'>
 									<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/locales/ru/questions.json'>questions.json</a></b></td>
-									<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+									<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 								</tr>
 								<tr style='border-bottom: 1px solid #eee;'>
 									<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/locales/ru/users.json'>users.json</a></b></td>
-									<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+									<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 								</tr>
 								<tr style='border-bottom: 1px solid #eee;'>
 									<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/locales/ru/ui.json'>ui.json</a></b></td>
-									<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+									<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 								</tr>
 							</table>
 						</blockquote>
@@ -270,23 +270,23 @@ It’s perfect for students, teachers, or anyone interested in physics and web d
 							</thead>
 								<tr style='border-bottom: 1px solid #eee;'>
 									<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/locales/en/messages.json'>messages.json</a></b></td>
-									<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+									<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 								</tr>
 								<tr style='border-bottom: 1px solid #eee;'>
 									<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/locales/en/blogs.json'>blogs.json</a></b></td>
-									<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+									<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 								</tr>
 								<tr style='border-bottom: 1px solid #eee;'>
 									<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/locales/en/questions.json'>questions.json</a></b></td>
-									<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+									<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 								</tr>
 								<tr style='border-bottom: 1px solid #eee;'>
 									<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/locales/en/users.json'>users.json</a></b></td>
-									<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+									<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 								</tr>
 								<tr style='border-bottom: 1px solid #eee;'>
 									<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/locales/en/ui.json'>ui.json</a></b></td>
-									<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+									<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 								</tr>
 							</table>
 						</blockquote>
@@ -306,23 +306,23 @@ It’s perfect for students, teachers, or anyone interested in physics and web d
 							</thead>
 								<tr style='border-bottom: 1px solid #eee;'>
 									<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/locales/am/messages.json'>messages.json</a></b></td>
-									<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+									<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 								</tr>
 								<tr style='border-bottom: 1px solid #eee;'>
 									<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/locales/am/blogs.json'>blogs.json</a></b></td>
-									<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+									<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 								</tr>
 								<tr style='border-bottom: 1px solid #eee;'>
 									<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/locales/am/questions.json'>questions.json</a></b></td>
-									<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+									<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 								</tr>
 								<tr style='border-bottom: 1px solid #eee;'>
 									<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/locales/am/users.json'>users.json</a></b></td>
-									<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+									<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 								</tr>
 								<tr style='border-bottom: 1px solid #eee;'>
 									<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/public/locales/am/ui.json'>ui.json</a></b></td>
-									<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+									<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 								</tr>
 							</table>
 						</blockquote>
@@ -346,19 +346,19 @@ It’s perfect for students, teachers, or anyone interested in physics and web d
 			</thead>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/App.jsx'>App.jsx</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/i18n.js'>i18n.js</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/main.jsx'>main.jsx</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/index.css'>index.css</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 				</tr>
 			</table>
 			<!-- components Submodule -->
@@ -376,75 +376,75 @@ It’s perfect for students, teachers, or anyone interested in physics and web d
 					</thead>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/components/ContactDescription.jsx'>ContactDescription.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/components/BlogInfo.jsx'>BlogInfo.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/components/ContactInfo.jsx'>ContactInfo.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/components/BlogCard.jsx'>BlogCard.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/components/UserCard.jsx'>UserCard.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/components/DarkModeToggle.jsx'>DarkModeToggle.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/components/AboutInfo.jsx'>AboutInfo.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/components/GameIntro.jsx'>GameIntro.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/components/Carousel.jsx'>Carousel.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/components/NoResults.jsx'>NoResults.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/components/Nav.jsx'>Nav.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/components/ScrollTop.js'>ScrollTop.js</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/components/LazyImage.jsx'>LazyImage.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/components/LanguageSelector.jsx'>LanguageSelector.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/components/StartBtn.jsx'>StartBtn.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/components/ResultsOptions.jsx'>ResultsOptions.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/components/GameOverScreen.jsx'>GameOverScreen.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/components/Header.jsx'>Header.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 					</table>
 				</blockquote>
@@ -464,31 +464,31 @@ It’s perfect for students, teachers, or anyone interested in physics and web d
 					</thead>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/pages/Contact.jsx'>Contact.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/pages/About.jsx'>About.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/pages/Blogs.jsx'>Blogs.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/pages/Results.jsx'>Results.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/pages/Home.jsx'>Home.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/pages/Game.jsx'>Game.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/pages/BlogSingle.jsx'>BlogSingle.jsx</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 						</tr>
 					</table>
 					<!-- 404 Submodule -->
@@ -506,11 +506,11 @@ It’s perfect for students, teachers, or anyone interested in physics and web d
 							</thead>
 								<tr style='border-bottom: 1px solid #eee;'>
 									<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/pages/404/404.css'>404.css</a></b></td>
-									<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+									<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 								</tr>
 								<tr style='border-bottom: 1px solid #eee;'>
 									<td style='padding: 8px;'><b><a href='https://github.com/KoryunNersisyan468/developing-game/blob/master/src/pages/404/NotFound.jsx'>NotFound.jsx</a></b></td>
-									<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+									<td style='padding: 8px;'><code>❯ REPLACE-ME</code></td>
 								</tr>
 							</table>
 						</blockquote>
