@@ -28,13 +28,6 @@ img {
     border-radius: 4px;
 }
 
-.home_title {
-    text-shadow:
-        3px 0 2px #7E22CE, -3px 0 2px #7E22CE,
-        0 3px 2px #7E22CE, 0 -3px 2px #7E22CE,
-        2px 2px 2px #7E22CE, -2px -2px 2px #7E22CE,
-        2px -2px 2px #7E22CE, -2px 2px 2px #7E22CE;
-}
 
 .home_title {
     text-shadow:
