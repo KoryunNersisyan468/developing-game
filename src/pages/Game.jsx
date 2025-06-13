@@ -87,7 +87,7 @@ export default function Game() {
     }));
 
     const timestamp = new Date().toLocaleString();
-    const storedResults = JSON.parse(localStorage.getItem("quizResults")) || [];
+    const storedResults = JSON.parse(localStorage.getItem("quizResults")) || []
     storedResults.push({
       results,
       index: storedResults.length,

@@ -66,7 +66,7 @@ export default function Results() {
               <button
                 onClick={handleClearResults}
                 type="button"
-                className="dark:text-white text-gray-900 transition-all text-3xl duration-200 bg-gradient-to-br from-purple-700 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none dark:focus:ring-blue-700 focus:ring-purple-700 font-medium rounded-lg  text-center me-2 mb-2 px-4 py-2"
+                className="dark:text-white text-gray-900 transition-all text-3xl duration-200 bg-gradient-to-br from-purple-800 to-blue-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none dark:focus:ring-blue-800 focus:ring-purple-700 font-medium rounded-lg  text-center me-2 px-4 py-2"
               >
                 {t("clear")}
               </button>
@@ -81,11 +81,20 @@ export default function Results() {
               (item.score / item.totalQuestions) * 100
             );
             return (
-              <ResultsOptions t={t} key={index} item={item} percentage={percentage} getResultColor={getResultColor} getResultText={getResultText} />
+              <ResultsOptions
+                t={t}
+                key={index}
+                item={item}
+                percentage={percentage}
+                getResultColor={getResultColor}
+                getResultText={getResultText}
+              />
             );
           })}
         </ul>
       </div>
     </div>
-  ) : <NoResults t={t} />
+  ) : (
+    <NoResults t={t} />
+  );
 }

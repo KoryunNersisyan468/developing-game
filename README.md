@@ -17,7 +17,6 @@
 
 <!-- default option, no dependency badges. -->
 
-
 <!-- default option, no dependency badges. -->
 
 </div>
@@ -31,13 +30,12 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Project Structure](#project-structure)
-    - [Project Index](#project-index)
+  - [Project Index](#project-index)
 - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Testing](#testing)
-- [Roadmap](#roadmap)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+- [Screenshots](#-game-screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
@@ -45,8 +43,18 @@
 ---
 
 ## Overview
+This project is an interactive **physics quiz game** built with **React**.  
+Players answer physics-related questions within a time limit, and their final score is calculated based on correct answers.
 
+The app uses **React Hooks** for state management and timer logic, offering a smooth and responsive experience.
 
+Key objectives of the project:
+
+- Help users practice and test their physics knowledge
+- Demonstrate React fundamentals in a real-world game scenario
+- Encourage learning through interactive gameplay
+
+It’s perfect for students, teachers, or anyone interested in physics and web development.
 
 ---
 
@@ -523,63 +531,66 @@ Build developing-game from the source and intsall dependencies:
 
 1. **Clone the repository:**
 
-    ```sh
-    ❯ git clone https://github.com/KoryunNersisyan468/developing-game
-    ```
+   ```sh
+   ❯ git clone https://github.com/KoryunNersisyan468/developing-game
+   ```
 
 2. **Navigate to the project directory:**
 
-    ```sh
-    ❯ cd developing-game
-    ```
+   ```sh
+   ❯ cd developing-game
+   ```
 
 3. **Install the dependencies:**
 
 <!-- SHIELDS BADGE CURRENTLY DISABLED -->
-	<!-- [![npm][npm-shield]][npm-link] -->
-	<!-- REFERENCE LINKS -->
-	<!-- [npm-shield]: https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white -->
-	<!-- [npm-link]: https://www.npmjs.com/ -->
 
-	**Using [npm](https://www.npmjs.com/):**
+    <!-- [![npm][npm-shield]][npm-link] -->
+    <!-- REFERENCE LINKS -->
+    <!-- [npm-shield]: https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white -->
+    <!-- [npm-link]: https://www.npmjs.com/ -->
 
-	```sh
-	❯ npm install
-	```
+    **Using [npm](https://www.npmjs.com/):**
+
+    ```sh
+    ❯ npm install
+    ```
 
 ### Usage
 
 Run the project with:
 
 **Using [npm](https://www.npmjs.com/):**
+
 ```sh
-npm start
-```
-
-### Testing
-
-Developing-game uses the {__test_framework__} test framework. Run the test suite with:
-
-**Using [npm](https://www.npmjs.com/):**
-```sh
-npm test
+npm run dev
 ```
 
 ---
 
-## Roadmap
+## 🖼️ Game Screenshots
 
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
+### 🏠 Home Page
+
+![Home Page](screenshots/HomePage.png)
+
+### 🎮 Game Page
+
+![Game Before](screenshots/GameBeforePage.png)  
+![Game In Progress](screenshots/GamePage.png)
+
+### 🏁 Result Page
+
+![Result Page](screenshots/ResultPage.png)
+
+### 📬 Contact Page
+
+![Contact Page](screenshots/ContactPage.png)
 
 ---
+
 
 ## Contributing
-
-- **💬 [Join the Discussions](https://github.com/KoryunNersisyan468/developing-game/discussions)**: Share your insights, provide feedback, or ask questions.
-- **🐛 [Report Issues](https://github.com/KoryunNersisyan468/developing-game/issues)**: Submit bugs found or log feature requests for the `developing-game` project.
-- **💡 [Submit Pull Requests](https://github.com/KoryunNersisyan468/developing-game/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
 
 <details closed>
 <summary>Contributing Guidelines</summary>
@@ -634,8 +645,6 @@ Developing-game is protected under the [LICENSE](https://choosealicense.com/lice
 
 </div>
 
-
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
-
 
 ---
