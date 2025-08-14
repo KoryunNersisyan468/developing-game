@@ -1,0 +1,126 @@
+[
+  {
+    "id": "1",
+    "title": "Stage 1. Students' Voice and Right to Choose",
+    "date": "03.03.2025",
+    "description": "Students are introduced to the project topic and key issues, and it is explained what they are expected to do within this framework. The relevance of the topic is discussed. Groups are formed, and students are given the opportunity to choose their role in the group based on their preferences. Each member is assigned a specific task.",
+    "images": ["blogs/Blog1_1.jpg", "blogs/Blog1_2.jpg"],
+    "videos": ["", ""]
+  },
+  {
+    "id": "2",
+    "title": "Stage 2. Research",
+    "date": "10.03.2025",
+    "description": "In their groups, students decide which sources to use for conducting their research. They explore various sources, gather information that will help them find answers to the key questions.",
+    "images": [
+      "blogs/Blog2_1.png",
+      "blogs/Blog2_2.png",
+      "blogs/Blog2_3.png",
+      "blogs/Blog2_4.png",
+      "blogs/Blog2_5.png"
+    ],
+    "videos": ["", "", ""]
+  },
+  {
+    "id": "3",
+    "title": "Stage 3. Data Processing",
+    "date": "17.03.2025",
+    "description": "Students compare, analyze, process, and practically apply the data and facts collected from various sources. While writing the material, students indicate the sources they used.",
+    "images": [
+      "blogs/Blog3_4.jpg",
+      "blogs/Blog3_2.jpg",
+      "blogs/Blog3_3.jpg",
+      "blogs/Blog3_1.jpg",
+      "blogs/Blog3_5.jpg",
+      "blogs/Blog3_6.jpg"
+    ],
+    "videos": ["blogs/Blog3_5.mp4", "blogs/Blog3_6.mp4", "blogs/Blog3_7.mp4"]
+  },
+  {
+    "id": "4",
+    "title": "Stage 4. Project Implementation",
+    "date": "31.03.2025",
+    "description": "At this stage, class discussions are held based on the data already collected. The group discussions should help the teacher see to what extent the students have been able to find answers to the research questions.",
+    "images": [
+      "blogs/Blog4_1.jpg",
+      "blogs/Blog4_2.jpg",
+      "blogs/Blog4_3.jpg",
+      "blogs/Blog4_4.jpg"
+    ],
+    "videos": ["", ""]
+  },
+  {
+    "id": "5",
+    "title": "Stage 5. Creating an Educational Lotto Game",
+    "date": "07.04.2025",
+    "description": "Based on the collected data, students begin creating an educational lotto game. The selected and processed questions should be included in the game cards.",
+    "images": ["blogs/Blog5_1.jpg", "blogs/Blog5_2.jpg", "blogs/Blog5_3.jpg"],
+    "videos": ["", ""]
+  },
+  {
+    "id": "6",
+    "title": "Stage 6. Project Review",
+    "date": "14.04.2025",
+    "description": "After receiving feedback, groups review their work, make necessary changes, and present the initially prepared game cards. The game questions are uploaded to the project website.",
+    "images": [
+      "blogs/Blog6_1.jpg",
+      "blogs/Blog6_2.jpg",
+      "blogs/Blog6_3.jpg",
+      "blogs/Blog6_4.jpg",
+      "blogs/Blog6_5.jpg",
+      "blogs/Blog6_6.jpg",
+      "blogs/Blog6_7.jpg"
+    ],
+    "videos": ["", ""]
+  },
+  {
+    "id": "7",
+    "title": "Stage 7. Project Finalization and Presentation",
+    "date": "21.04.2025",
+    "description": "During the presentation, the final result should include a slideshow, a website, and the lotto game cards.",
+    "images": [
+      "blogs/Blog7_1.jpg",
+      "blogs/Blog7_2.jpg",
+      "blogs/Blog7_3.jpg",
+      "blogs/Blog7_4.jpg",
+      "blogs/Blog7_5.jpg",
+      "blogs/Blog7_6.jpg",
+      "blogs/Blog7_7.jpg",
+      "blogs/Blog7_8.jpg",
+      "blogs/Blog7_9.jpg",
+      "blogs/Blog7_10.jpg",
+      "blogs/Blog7_11.jpg",
+      "blogs/Blog7_12.jpg",
+      "blogs/Blog7_13.jpg",
+      "blogs/Blog7_14.jpg",
+      "blogs/Blog7_15.jpg",
+      "blogs/Blog7_16.jpg",
+      "blogs/Blog7_17.jpg",
+      "blogs/Blog7_18.jpg",
+      "blogs/Blog7_19.jpg",
+      "blogs/Blog7_20.jpg",
+      "blogs/Blog7_21.jpg",
+      "blogs/Blog7_22.jpg",
+      "blogs/Blog7_23.jpg",
+      "blogs/Blog7_24.jpg",
+      "blogs/Blog7_25.jpg",
+      "blogs/Blog7_26.jpg"
+    ],
+    "videos": [
+      "blogs/Blog7_27.MOV",
+      "blogs/Blog7_28.MOV",
+      "blogs/Blog7_29.MOV",
+      "blogs/Blog7_30.MOV",
+      "blogs/Blog7_31.MOV",
+      "blogs/Blog7_32.MOV"
+    ]
+  },
+  {
+    "id": "8",
+    "title": "3D model of a physics classroom",
+    "date": "",
+    "description": "This image shows a 3D model of our classroom, which we created using Blender. The model was built collaboratively with careful attention to the details of the room.",
+    "images": ["blogs/Blog8_1.jpg"],
+    "videos": ["blogs/Blog8_2.mp4", "blogs/Blog8_3.mp4", "blogs/Blog8_4.mp4"]
+  }
+]
