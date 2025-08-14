@@ -82,9 +82,9 @@ It’s perfect for students, teachers, or anyone interested in physics and web d
     ├── package.json
     ├── public
     │   ├── 404.html
-    │   ├── AnanimImage.jpg
-    │   ├── HomeBg.png
-    │   ├── QRfon.jpg
+    │   ├── AnanimImage.webp
+    │   ├── HomeBg.webp
+    │   ├── QRfon.webp
     │   ├── blogs
     │   ├── flags
     │   ├── google88b87ba01b7366b3.html
@@ -579,20 +579,20 @@ npm run dev
 
 ### 🏠 Home Page
 
-![Home Page](/public/screenshots/HomePage.png)
+![Home Page](/public/screenshots/HomePage.webp)
 
 ### 🎮 Game Page
 
-![Game Before](/public/screenshots/GameBeforePage.png)  
-![Game In Progress](/public/screenshots/GamePage.png)
+![Game Before](/public/screenshots/GameBeforePage.webp)  
+![Game In Progress](/public/screenshots/GamePage.webp)
 
 ### 🏁 Result Page
 
-![Result Page](/public/screenshots/ResultPage.png)
+![Result Page](/public/screenshots/ResultPage.webp)
 
 ### 📬 Contact Page
 
-![Contact Page](/public/screenshots/ContactPage.png)
+![Contact Page](/public/screenshots/ContactPage.webp)
 
 ---
 

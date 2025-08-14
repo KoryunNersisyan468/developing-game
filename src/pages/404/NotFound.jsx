@@ -8,7 +8,7 @@ export default function NotFound() {
           <div className="central-body">
             <img
               className="image-404"
-              src="http://salehriaz.com/404Page/img/404.svg"
+              src={`${import.meta.env.BASE_URL}/404/404.svg`}
               alt="404 Error"
               width="300px"
             />
@@ -20,20 +20,20 @@ export default function NotFound() {
           <div className="objects">
             <img
               className="object_rocket"
-              src="http://salehriaz.com/404Page/img/rocket.svg"
+              src={`${import.meta.env.BASE_URL}/404/rocket.svg`}
               alt="Rocket"
               width="40px"
             />
             <div className="earth-moon">
               <img
                 className="object_earth"
-                src="http://salehriaz.com/404Page/img/earth.svg"
+                src={`${import.meta.env.BASE_URL}/404/earth.svg`}
                 alt="Earth"
                 width="100px"
               />
               <img
                 className="object_moon"
-                src="http://salehriaz.com/404Page/img/moon.svg"
+                src={`${import.meta.env.BASE_URL}/404/moon.svg`}
                 alt="Moon"
                 width="80px"
               />
@@ -41,7 +41,7 @@ export default function NotFound() {
             <div className="box_astronaut">
               <img
                 className="object_astronaut"
-                src="http://salehriaz.com/404Page/img/astronaut.svg"
+                src={`${import.meta.env.BASE_URL}/404/astronaut.svg`}
                 alt="Astronaut"
                 width="140px"
               />

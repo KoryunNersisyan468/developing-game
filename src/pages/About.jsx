@@ -1,5 +1,5 @@
 import UserCard from "@/components/UserCard";
-import AnanimImg from "/AnanimImage.jpg";
+import AnanimImg from "/AnanimImage.webp";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import AboutInfo from "../components/AboutInfo";

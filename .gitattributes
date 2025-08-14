@@ -1,0 +1,8 @@
+# Все текстовые файлы
+* text=auto
+
+# Принудительно LF для некоторых файлов (опционально)
+*.sh text eol=lf
+*.css text eol=lf
+*.svg text eol=lf
+*.js text eol=lf

@@ -1,10 +1,14 @@
-import { Link } from "react-router";
+// Nav.jsx
 import { useTranslation } from "react-i18next";
+import { Link, useLocation } from "react-router";
+
+  
 
 export default function Nav({ isMenuOpen }) {
   const { t } = useTranslation();
+  const location = useLocation();
 
-  const menuList = [
+const menuList = [
     { text: t("about"), href: "/about" },
     { text: t("contact"), href: "/contact" },
     { text: t("blogs"), href: "/blogs" },
@@ -12,14 +16,29 @@ export default function Nav({ isMenuOpen }) {
   ];
 
   return (
-    <nav className={`w-1/2 ${isMenuOpen ? "visible" : "hidden"} md:inline`}>
-      <ul className="flex flex-col items-center justify-around md:flex-row gap-2">
-        {menuList.map((item, index) => (
-          <li key={index}>
-            <Link to={item.href}>{item.text}</Link>
-          </li>
-        ))}
+    <nav
+      aria-label="Main navigation"
+      className={`w-1/2 ${isMenuOpen ? "visible" : "hidden"} md:inline`}
+    >
+      <ul className="flex flex-col md:flex-row text-center gap-2 items-center justify-around">
+        {menuList.map((item, idx) => 
+           {
+          const isActive = location.pathname === item.href; 
+          return (
+            <li key={idx}>
+              <Link
+                to={item.href}
+                aria-current={isActive ? "page" : undefined} 
+              >
+                {item.text}
+              </Link>
+            </li>
+          );
+        })}
       </ul>
     </nav>
   );
 }
+
+        
+      

@@ -62,7 +62,7 @@ export default function Carousel({ blog }) {
 
   if (validVideos.length === 1 && validImages.length === 0) {
     return (
-      <video controls className="sm:h-[350px] h-96 mt-20 rounded-lg">
+      <video controls preload="metadata" loading="lazy" className="sm:h-[350px] h-96 mt-20 rounded-lg">
         <source
           src={`${import.meta.env.BASE_URL}${validVideos[0]}`}
           type="video/mp4"
@@ -135,7 +135,7 @@ export default function Carousel({ blog }) {
 
         {validVideos.map((video, index) => (
           <div key={`video-${index}`} className="px-2">
-            <video controls className="w-full sm:h-96 h-64 rounded-lg">
+            <video preload="metadata" loading="lazy" controls className="w-full sm:h-96 h-64 rounded-lg">
               <source
                 src={`${import.meta.env.BASE_URL}${video}`}
                 type="video/mp4"

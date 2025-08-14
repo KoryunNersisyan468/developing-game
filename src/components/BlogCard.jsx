@@ -9,8 +9,9 @@ export default function BlogCard({blog}) {
             src={
               blog.images?.[0]
                 ? blog.images[0]
-                : `${import.meta.env.BASE_URL}/HomeBg.png`
+                : `${import.meta.env.BASE_URL}/HomeBg.webp`
             }
+
             alt={blog.title}
             className="w-full h-56 object-cover"
           />

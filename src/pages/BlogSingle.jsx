@@ -2,8 +2,11 @@ import { Link, useParams } from "react-router";
 import { FaArrowCircleLeft } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
-import Carousel from "../components/Carousel";
+import { lazy, Suspense } from "react";
 import BlogInfo from "../components/BlogInfo";
+import { FallbackLoader } from "../components/FallbackLoader";
+
+const Carousel = lazy(() => import("../components/Carousel"));
 
 export default function BlogSingle() {
   const { i18n } = useTranslation();
@@ -28,7 +31,7 @@ export default function BlogSingle() {
         console.error("Ошибка при загрузке:", error);
       });
   }, [i18n.language, slug]);
-  if (!blog) return <div className="text-center p-10">Загрузка...</div>;
+  if (!blog) return <FallbackLoader />;
 
   return (
     <div className="w-full box-border min-h-[calc(100vh-108px)] md:min-h-[calc(100vh-78px)] p-3 dark:text-gray-300 text-black bg-purple-300 transition-all duration-200 dark:bg-indigo-500 justify-center items-start flex-col">
@@ -37,7 +40,14 @@ export default function BlogSingle() {
       </Link>
       <BlogInfo blog={blog} />
       <div className="w-full mt-5 box-border">
-        <Carousel blog={blog} />
+        
+        <Suspense
+              fallback={
+                <FallbackLoader />
+              }
+            >
+          <Carousel blog={blog} />
+        </Suspense>
       </div>
     </div>
   );

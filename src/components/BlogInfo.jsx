@@ -9,7 +9,7 @@ export default function BlogInfo({blog}) {
             src={
               blog.images?.[0]
                 ? `${import.meta.env.BASE_URL}${blog.images[0]}`
-                : `${import.meta.env.BASE_URL}HomeBg.png`
+                : `${import.meta.env.BASE_URL}HomeBg.webp`
             }
             alt="BlogImg"
           />

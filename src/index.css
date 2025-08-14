@@ -46,3 +46,11 @@ img {
         2px -2px 3px #312E81, -2px 2px 3px #312E81;
 
 }
+
+#language-select {
+    width: 28px !important;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    color: inherit;
+}
