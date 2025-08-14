@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://koryunnersisyan468.github.io/developing-game/sitemap.xml
