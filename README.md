@@ -579,20 +579,20 @@ npm run dev
 
 ### 🏠 Home Page
 
-![Home Page](/public/screenshots/HomePage.webp)
+![Home Page](/screenshots/HomePage.webp)
 
 ### 🎮 Game Page
 
-![Game Before](/public/screenshots/GameBeforePage.webp)  
-![Game In Progress](/public/screenshots/GamePage.webp)
+![Game Before](/screenshots/GameBeforePage.webp)  
+![Game In Progress](/screenshots/GamePage.webp)
 
 ### 🏁 Result Page
 
-![Result Page](/public/screenshots/ResultPage.webp)
+![Result Page](/screenshots/ResultPage.webp)
 
 ### 📬 Contact Page
 
-![Contact Page](/public/screenshots/ContactPage.webp)
+![Contact Page](/screenshots/ContactPage.webp)
 
 ---
 
