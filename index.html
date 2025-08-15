@@ -12,7 +12,7 @@
     <meta http-equiv="Content-Security-Policy"
   content="
     default-src 'self';
-    script-src 'self';
+    script-src 'self' 'nonce-abc123';
     style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
     font-src 'self' https://fonts.gstatic.com data:;
     img-src 'self' data: https:;
@@ -61,11 +61,23 @@
       }
     }
     </script>
+    <script type="text/javascript" nonce="abc123">
+   
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
     <script type="module" crossorigin src="/developing-game/assets/index-BE5lIOFY.js"></script>
     <link rel="stylesheet" crossorigin href="/developing-game/assets/index-DRT_CWx-.css">
   </head>
   <body>
-    <div id="root"></div>
-    <script src="/fix-url.js"></script>
+    <div id="root"></div>
   </body>
 </html>
