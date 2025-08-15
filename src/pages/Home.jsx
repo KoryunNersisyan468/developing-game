@@ -10,7 +10,12 @@ export default function Home() {
       <img
         className="w-full object-fill md:object-cover  md:h-[calc(100vh-78px)] h-[calc(100vh-124px)] absolute -z-60"
         src={homeBg}
+        srcSet="/developing-game/HomeBg-412.webp 412w, /developing-game/HomeBg.webp 842w"
+        sizes="(max-width: 600px) 412px, 842px"
         alt="HomeBg"
+        fetchPriority="high"
+        width="842"
+        height="600"
       />
       <div className="absolute top-1/6 xl:gap-24 lg:gap-20 sm:gap-16 gap-12 left-1/10 flex transition-all duration-200 text-gray-900 dark:text-white flex-col justify-between items-start">
         <h1 className="xl:text-7xl home_title font-bold text-3xl lg:text-6xl sm:text-3xl md:text-4xl sm:w-xs w-2xs">

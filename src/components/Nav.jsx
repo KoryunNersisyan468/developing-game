@@ -1,4 +1,3 @@
-// Nav.jsx
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router";
 

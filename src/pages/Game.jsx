@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import GameIntro from "../components/GameIntro";
 import GameOverScreen from "../components/GameOverScreen";
+import GameIntro from "../components/GameIntro";
 
 export default function Game() {
   const { t, i18n } = useTranslation();
@@ -87,7 +87,7 @@ export default function Game() {
     }));
 
     const timestamp = new Date().toLocaleString();
-    const storedResults = JSON.parse(localStorage.getItem("quizResults")) || []
+    const storedResults = JSON.parse(localStorage.getItem("quizResults")) || [];
     storedResults.push({
       results,
       index: storedResults.length,
@@ -109,6 +109,16 @@ export default function Game() {
     setIsGameStarted(true);
   };
 
+  const handleRestartGame = () => {
+    clearInterval(timerId);
+    setSelectedAnswers({});
+    setShowResults(false);
+    setTimeLeft(600);
+    setCorrectAnswers(0);
+    setIsGameStarted(false);
+    loadQuestions(i18n.language);
+  };
+
   return (
     <div className="bg-purple-200 dark:bg-indigo-400 transition-all duration-200 p-8 w-full">
       {!isGameStarted && <GameIntro t={t} handleStartGame={handleStartGame} />}
@@ -126,8 +136,7 @@ export default function Game() {
                     let bgColor = "bg-gray-200";
                     if (showResults) {
                       if (option === q.correct) bgColor = "bg-green-400";
-                      else if (option === selectedAnswers[qIndex])
-                        bgColor = "bg-red-400";
+                      else if (option === selectedAnswers[qIndex]) bgColor = "bg-red-400";
                     } else if (selectedAnswers[qIndex] === option) {
                       bgColor = "bg-blue-400";
                     }
@@ -162,6 +171,7 @@ export default function Game() {
               quizQuestions={quizQuestions}
               formatTime={formatTime}
               t={t}
+              onRestart={handleRestartGame}
             />
           )}
         </div>

@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router";
 import { lazy, Suspense } from "react";
-import { FadeLoader } from "react-spinners";
+import { FallbackLoader } from "./FallbackLoader";
+
 
 const Home = lazy(() => import("../pages/Home"));
 const About = lazy(() => import("../pages/About"));
@@ -20,7 +21,7 @@ export default function Main() {
           element={
             <Suspense
               fallback={
-                <FadeLoader />
+                <FallbackLoader />
               }
             >
               <Home />
@@ -32,7 +33,7 @@ export default function Main() {
           element={
             <Suspense
               fallback={
-                <FadeLoader />
+                <FallbackLoader />
               }
             >
               <Home />
@@ -44,7 +45,7 @@ export default function Main() {
           element={
             <Suspense
               fallback={
-                <FadeLoader />
+                <FallbackLoader />
               }
             >
               <About />
@@ -56,7 +57,7 @@ export default function Main() {
           element={
             <Suspense
               fallback={
-                <FadeLoader />
+                <FallbackLoader />
               }
             >
               <Contact />
@@ -68,7 +69,7 @@ export default function Main() {
           element={
             <Suspense
               fallback={
-                <FadeLoader />
+                <FallbackLoader />
               }
             >
               <Results />
@@ -80,7 +81,7 @@ export default function Main() {
           element={
             <Suspense
               fallback={
-                <FadeLoader />
+                <FallbackLoader />
               }
             >
               <Game />
@@ -92,7 +93,7 @@ export default function Main() {
           element={
             <Suspense
               fallback={
-                <FadeLoader />
+                <FallbackLoader />
               }
             >
               <Blogs />
@@ -104,7 +105,7 @@ export default function Main() {
           element={
             <Suspense
               fallback={
-                <FadeLoader />
+                <FallbackLoader />
               }
             >
               <BlogSingle />
@@ -116,7 +117,7 @@ export default function Main() {
           element={
             <Suspense
               fallback={
-                <FadeLoader />
+                <FallbackLoader />
               }
             >
               <NotFound />

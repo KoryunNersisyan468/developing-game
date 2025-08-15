@@ -1,8 +1,10 @@
 import { useState, useEffect, useCallback } from "react";
-import Slider from "react-slick";
 import { AiOutlineLeft, AiOutlineRight, AiOutlineClose } from "react-icons/ai";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 import LazyImage from "./LazyImage";
 
 export default function Carousel({ blog }) {
@@ -62,7 +64,12 @@ export default function Carousel({ blog }) {
 
   if (validVideos.length === 1 && validImages.length === 0) {
     return (
-      <video controls preload="metadata" loading="lazy" className="sm:h-[350px] h-96 mt-20 rounded-lg">
+      <video
+        controls
+        preload="metadata"
+        loading="lazy"
+        className="sm:h-[350px] h-96 mt-20 rounded-lg"
+      >
         <source
           src={`${import.meta.env.BASE_URL}${validVideos[0]}`}
           type="video/mp4"
@@ -102,48 +109,57 @@ export default function Carousel({ blog }) {
   }
 
   return (
-    <div className="py-8 px-1 w-full rounded-2xl text-center bg-gray-300">
-      <Slider
-        className="pb-16 sm:pb-6 md:pb-3 lg:pb-1"
-        dots={true}
-        arrows={false}
-        infinite={true}
-        speed={500}
-        slidesToShow={3}
-        slidesToScroll={1}
-        responsive={[
-          { breakpoint: 1024, settings: { slidesToShow: 2 } },
-          { breakpoint: 768, settings: { slidesToShow: 1 } },
-        ]}
+    <div>
+      <Swiper
+        modules={[Navigation, Pagination]}
+        spaceBetween={16}
+        slidesPerView={3}
+        navigation
+        style={{
+          "--swiper-pagination-color": "#ffffffb2",
+          "--swiper-pagination-bullet-inactive-color": "#ffffff77",
+          "--swiper-navigation-color": "#ffffffff",
+          "--swiper-navigation-size": "3rem",
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        breakpoints={{
+          0: { slidesPerView: 1 },
+          1024: { slidesPerView: 2 },
+          1280: { slidesPerView: 3 },
+        }}
       >
         {validImages.map((image, index) => {
           const src = fullImageList[index];
           return (
-            <div
-              onClick={() => openModal(index)}
-              key={`image-${index}`}
-              className="px-2"
-            >
-              <LazyImage
-                src={src}
-                alt={`image-${index}`}
-                className="w-full sm:h-96 h-64 rounded-lg cursor-pointer"
-              />
-            </div>
+            <SwiperSlide key={`image-${index}`}>
+              <div onClick={() => openModal(index)}>
+                <LazyImage
+                  src={src}
+                  alt={`image-${index}`}
+                  className="w-full sm:h-96 h-64 rounded-lg cursor-pointer"
+                />
+              </div>
+            </SwiperSlide>
           );
         })}
-
         {validVideos.map((video, index) => (
-          <div key={`video-${index}`} className="px-2">
-            <video preload="metadata" loading="lazy" controls className="w-full sm:h-96 h-64 rounded-lg">
+          <SwiperSlide key={`video-${index}`}>
+            <video
+              preload="metadata"
+              loading="lazy"
+              controls
+              className="w-full sm:h-96 h-64 rounded-lg"
+            >
               <source
                 src={`${import.meta.env.BASE_URL}${video}`}
                 type="video/mp4"
               />
             </video>
-          </div>
+          </SwiperSlide>
         ))}
-      </Slider>
+      </Swiper>
 
       {isOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50 transition-opacity duration-300">

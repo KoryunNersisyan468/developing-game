@@ -1,5 +1,7 @@
 import { useTranslation } from "react-i18next";
 
+const descriptions = [1, 2, 3, 4, 5];
+
 export default function AboutInfo() {
   const { t } = useTranslation("messages");
   return (
@@ -8,11 +10,11 @@ export default function AboutInfo() {
         {t("about_h")}
       </h1>
       <p className="md:text-3xl text-2xl border-0 flex flex-col gap-3 justify-between items-start dark:border-blue-300 border-purple-300 rounded-2xl box-border p-5 mt-6 w-full">
-        <span>{t("about_description_1")}</span>
-        <span>{t("about_description_2")}</span>
-        <span>{t("about_description_3")}</span>
-        <span>{t("about_description_4")}</span>
-        <span>{t("about_description_5")}</span>
+       {descriptions.map((i) => (
+          <span key={i} >
+            {t(`about_description_${i}`)}
+          </span>
+        ))}
       </p>
     </div>
   );
